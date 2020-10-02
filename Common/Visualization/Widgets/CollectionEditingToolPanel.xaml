@@ -7,7 +7,7 @@
              mc:Ignorable="d" d:DesignWidth="700">
     <DockPanel>
         <TextBlock x:Name="TitleTextBlock" DockPanel.Dock="Left" Text="ToolPanel Title..."
-                   FontWeight="700" Width="120" Margin="2" />
+                   FontWeight="Bold" Width="120" Margin="2" />
         <StackPanel DockPanel.Dock="Right" Orientation="Horizontal">
             <imvw:PaletteButton x:Name="BtnMoveTop" x:FieldModifier="public"
                                 ToolTip="Move item to Top" ButtonText="" ButtonImage="/Instrumind.Common;component/Visualization/Images/item_move_top.png"

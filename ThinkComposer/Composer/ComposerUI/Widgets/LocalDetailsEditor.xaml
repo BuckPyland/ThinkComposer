@@ -78,7 +78,7 @@
                             </ControlTemplate.Triggers>
                         </ControlTemplate>
                     </Button.Template>
-                    <TextBlock Text="áâ" FontFamily="Wingdings" FontSize="10" FontWeight="700" TextAlignment="Center" VerticalAlignment="Center"
+                    <TextBlock Text="áâ" FontFamily="Wingdings" FontSize="10" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center"
                                    Foreground="{StaticResource {ComponentResourceKey TypeInTargetAssembly={x:Type imvw:EntitledPanel}, ResourceId=HeaderTextBrush}}" />
                 </Button>
                 <Border Padding="2" Margin="1"

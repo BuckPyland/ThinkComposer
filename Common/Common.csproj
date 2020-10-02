@@ -48,12 +48,6 @@
     <AssemblyOriginatorKeyFile>InstrumindThinkComposer_Key.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -718,6 +712,11 @@
     <Resource Include="Visualization\Images\printer.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Visualization\Images\arrow_redo.png" />
+    <Content Include="Visualization\Images\arrow_undo.png" />
+    <Content Include="Visualization\Images\find.png" />
+    <Content Include="Visualization\Images\page_white_text.png" />
+    <Content Include="Visualization\Images\table_lightning.png" />
     <Resource Include="Visualization\Images\spellcheck.png" />
     <Resource Include="Visualization\Images\page_white_find.png" />
     <Resource Include="Visualization\Images\page_white_findreplace.png" />

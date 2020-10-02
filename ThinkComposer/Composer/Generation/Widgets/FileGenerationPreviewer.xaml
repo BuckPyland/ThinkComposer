@@ -14,7 +14,7 @@
                                     ButtonImage="/Instrumind.ThinkComposer;component/ApplicationProduct/Images/disk.png" />
             </StackPanel>
             <DockPanel>
-                <TextBlock DockPanel.Dock="Left" Text="Output File:" Margin="2"/>
+                <TextBlock DockPanel.Dock="Left" Text="Output File:" Margin="2,4,2,2"/>
                 <TextBlock x:Name="TxtFileName" Text="[...]" Background="White" Margin="3" />
             </DockPanel>
         </DockPanel>

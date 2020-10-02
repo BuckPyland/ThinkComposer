@@ -862,6 +862,12 @@
     </GeometryGroup>
 
     <!--********************************************************************************-->
+    <GeometryGroup x:Key="SYM_StraightMidHorizLine" FillRule="NonZero">
+        <RectangleGeometry Rect="2,0,121,39" />
+        <LineGeometry StartPoint="0,20" EndPoint="125,20" />
+    </GeometryGroup>
+
+    <!--********************************************************************************-->
     <GeometryGroup x:Key="SYM_BracketsSquare" FillRule="NonZero">
         <RectangleGeometry Rect="5,4,115,33" />
 

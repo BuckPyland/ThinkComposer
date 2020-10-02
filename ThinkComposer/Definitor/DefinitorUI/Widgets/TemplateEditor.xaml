@@ -12,7 +12,7 @@
             <ComboBox x:Name="CbxLanguage" Margin="2" />
         </DockPanel>
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
-            <CheckBox x:Name="ChbExtendsBaseTemplate" FontSize="10" Margin="4" />
+            <CheckBox x:Name="ChbExtendsBaseTemplate" Content="Extends Base Template" FontSize="10" Margin="4" />
             <imcv:PaletteButton x:Name="BtnEditBaseTemplate" ButtonText="Edit Base Template" Margin="24,0,0,0"
                                 ButtonImage="/Instrumind.ThinkComposer;component/ApplicationProduct/Images/page_edit.png"
                                 Click="BtnEditBaseTemplate_Click"/>

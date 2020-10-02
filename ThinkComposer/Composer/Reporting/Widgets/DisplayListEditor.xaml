@@ -9,7 +9,7 @@
     <Border Background="White" CornerRadius="3">
         <DockPanel x:Name="DataPanel" Margin="1">
             <CheckBox x:Name="CbxTitle" DockPanel.Dock="Left" Content="[Property-Name]"
-                      IsChecked="{Binding Show}" Margin="2" />
+                      IsChecked="{Binding Show}" Margin="2,4,2,2" />
             <Image Stretch="None" Source="/Instrumind.ThinkComposer;component/ApplicationProduct/Images/rep_dis_list.png"
                    ToolTip="Style: List"/>
             <!--<imcv:PaletteToggleButton x:Name="BtnExpander" ToolTip="Show/hide detailed configuration"

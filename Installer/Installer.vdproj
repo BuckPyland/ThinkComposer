@@ -15,32 +15,20 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0135416F98BB57655ADB696F40B04751"
+        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_03DD7C9D46CC47CE9E0FC04D0B9BAC9C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0C5A5308F24CE769B90AB917A6DC84E2"
-        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0C5A5308F24CE769B90AB917A6DC84E2"
-        "OwnerKey" = "8:_AD1325F404A139E600FC3F818872603A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_1131521C286141399B9DD6AF07AD2B3B"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_13917AA5238D388DB2723D8975910735"
-        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,12 +75,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_399C3B6CA04F485BAB72CE85EE90A402"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_43320B224F2145B48B47E6A3EEDE2377"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -112,6 +94,12 @@
         "Entry"
         {
         "MsmKey" = "8:_4E239F711F544F75AC26C5C8DCCE36B6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_512BB3BE5C144F5482487CCB6554B9A9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -159,6 +147,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_89D82DD1331F0D9513224195AE09BC8A"
+        "OwnerKey" = "8:_C9898DD7F69F04E6CA987866C6C9BA6A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_89D82DD1331F0D9513224195AE09BC8A"
+        "OwnerKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_89D82DD1331F0D9513224195AE09BC8A"
+        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8B865F3FEDF941E3B79EC7EC25B3CE67"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -195,37 +201,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AD1325F404A139E600FC3F818872603A"
-        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AD1325F404A139E600FC3F818872603A"
-        "OwnerKey" = "8:_D9C4A68C7E0417B3442109ED6E84B988"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_AD2AC36A0F82444C8E0C24FB26DDE706"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AFE3FDD20F56C5878B8CAF9BE6D3B00C"
-        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AFE3FDD20F56C5878B8CAF9BE6D3B00C"
-        "OwnerKey" = "8:_D9C4A68C7E0417B3442109ED6E84B988"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B783CE67366143D08E11A156FE4C8AB7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -243,20 +219,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D0FB684977A242BA8448837550E9E9EE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D9C4A68C7E0417B3442109ED6E84B988"
+        "MsmKey" = "8:_C9898DD7F69F04E6CA987866C6C9BA6A"
         "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D9C4A68C7E0417B3442109ED6E84B988"
-        "OwnerKey" = "8:_13917AA5238D388DB2723D8975910735"
+        "MsmKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
+        "OwnerKey" = "8:_0135416F98BB57655ADB696F40B04751"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
+        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D0FB684977A242BA8448837550E9E9EE"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -267,6 +249,36 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_EE37AF7D117E01AD876DC53B9239768D"
+        "OwnerKey" = "8:_C9898DD7F69F04E6CA987866C6C9BA6A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EE37AF7D117E01AD876DC53B9239768D"
+        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EE37AF7D117E01AD876DC53B9239768D"
+        "OwnerKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FEC2AC7C291886A6DEE3C654880F1B52"
+        "OwnerKey" = "8:_89D82DD1331F0D9513224195AE09BC8A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FEC2AC7C291886A6DEE3C654880F1B52"
+        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
         "MsmSig" = "8:_UNDEFINED"
@@ -274,31 +286,37 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AFE3FDD20F56C5878B8CAF9BE6D3B00C"
+        "OwnerKey" = "8:_0135416F98BB57655ADB696F40B04751"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_13917AA5238D388DB2723D8975910735"
+        "OwnerKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AD1325F404A139E600FC3F818872603A"
+        "OwnerKey" = "8:_C9898DD7F69F04E6CA987866C6C9BA6A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0C5A5308F24CE769B90AB917A6DC84E2"
+        "OwnerKey" = "8:_EE37AF7D117E01AD876DC53B9239768D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D9C4A68C7E0417B3442109ED6E84B988"
+        "OwnerKey" = "8:_89D82DD1331F0D9513224195AE09BC8A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_FEC2AC7C291886A6DEE3C654880F1B52"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -396,85 +414,14 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03DD7C9D46CC47CE9E0FC04D0B9BAC9C"
-            {
-            "SourcePath" = "8:D:\\Instrumind_Resources\\Images\\IconPics\\Instrumind_ThinkComposer.ico"
-            "TargetName" = "8:Instrumind_ThinkComposer.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0C5A5308F24CE769B90AB917A6DC84E2"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0135416F98BB57655ADB696F40B04751"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:PdfSharp-WPF, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:DotLiquid, Version=1.7.7577.12844, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_0C5A5308F24CE769B90AB917A6DC84E2"
-                    {
-                    "Name" = "8:PdfSharp-WPF.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:PdfSharp-WPF.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1131521C286141399B9DD6AF07AD2B3B"
-            {
-            "SourcePath" = "8:..\\ThinkComposer\\uninstall.bat"
-            "TargetName" = "8:uninstall.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_13917AA5238D388DB2723D8975910735"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DotLiquid, Version=1.7.5971.34406, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_13917AA5238D388DB2723D8975910735"
+                    "_0135416F98BB57655ADB696F40B04751"
                     {
                     "Name" = "8:DotLiquid.dll"
                     "Attributes" = "3:512"
@@ -496,6 +443,46 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03DD7C9D46CC47CE9E0FC04D0B9BAC9C"
+            {
+            "SourcePath" = "8:..\\ThinkComposer\\Instrumind_ThinkComposer.ico"
+            "TargetName" = "8:Instrumind_ThinkComposer.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1131521C286141399B9DD6AF07AD2B3B"
+            {
+            "SourcePath" = "8:..\\ThinkComposer\\uninstall.bat"
+            "TargetName" = "8:uninstall.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1C3A198A01304093BF44ED3392129A98"
@@ -540,7 +527,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_22A838FB16354A9B8A76E62373AAB1F7"
             {
-            "SourcePath" = "8:D:\\Instrumind_Resources\\Images\\IconPics\\TC_Domain.ico"
+            "SourcePath" = "8:..\\ThinkComposer\\TC_Domain.ico"
             "TargetName" = "8:TC_Domain.ico"
             "Tag" = "8:"
             "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
@@ -620,28 +607,8 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_384904FFDFE14F55BF2AA6FD45759F97"
             {
-            "SourcePath" = "8:D:\\Instrumind_Resources\\Images\\IconPics\\install.ico"
+            "SourcePath" = "8:..\\ThinkComposer\\install.ico"
             "TargetName" = "8:install.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_399C3B6CA04F485BAB72CE85EE90A402"
-            {
-            "SourcePath" = "8:D:\\Instrumind_Resources\\Images\\IconPics\\acro_pdf.ico"
-            "TargetName" = "8:acro_pdf.ico"
             "Tag" = "8:"
             "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
             "Condition" = "8:"
@@ -680,7 +647,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_43AA895F286048AEBD1959B50E7EEFF6"
             {
-            "SourcePath" = "8:D:\\Instrumind_Resources\\Images\\IconPics\\Instrumind.ico"
+            "SourcePath" = "8:..\\ThinkComposer\\Instrumind.ico"
             "TargetName" = "8:Instrumind.ico"
             "Tag" = "8:"
             "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
@@ -724,6 +691,26 @@
             "TargetName" = "8:Organizational_Chart.tdom"
             "Tag" = "8:"
             "Folder" = "8:_612AE89E280743E9B28D0BBEC3A8DE48"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_512BB3BE5C144F5482487CCB6554B9A9"
+            {
+            "SourcePath" = "8:..\\ThinkComposer\\InstrumindThinkComposer_Manual.docx"
+            "TargetName" = "8:InstrumindThinkComposer_Manual.docx"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -858,9 +845,40 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_89D82DD1331F0D9513224195AE09BC8A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:PdfSharp.Xps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_89D82DD1331F0D9513224195AE09BC8A"
+                    {
+                    "Name" = "8:PdfSharp.Xps.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:PdfSharp.Xps.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8B865F3FEDF941E3B79EC7EC25B3CE67"
             {
-            "SourcePath" = "8:D:\\Instrumind_Resources\\Images\\IconPics\\ThinkComposer.ico"
+            "SourcePath" = "8:..\\ThinkComposer\\ThinkComposer.ico"
             "TargetName" = "8:ThinkComposer.ico"
             "Tag" = "8:"
             "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
@@ -978,94 +996,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AD1325F404A139E600FC3F818872603A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:PdfSharp.Xps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_AD1325F404A139E600FC3F818872603A"
-                    {
-                    "Name" = "8:PdfSharp.Xps.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:PdfSharp.Xps.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD2AC36A0F82444C8E0C24FB26DDE706"
             {
             "SourcePath" = "8:..\\PredefinedContent\\Use_Case_diagram.tdom"
             "TargetName" = "8:Use_Case_diagram.tdom"
             "Tag" = "8:"
             "Folder" = "8:_612AE89E280743E9B28D0BBEC3A8DE48"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AFE3FDD20F56C5878B8CAF9BE6D3B00C"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ICSharpCode.AvalonEdit, Version=4.2.5971.34403, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_AFE3FDD20F56C5878B8CAF9BE6D3B00C"
-                    {
-                    "Name" = "8:ICSharpCode.AvalonEdit.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:ICSharpCode.AvalonEdit.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B783CE67366143D08E11A156FE4C8AB7"
-            {
-            "SourcePath" = "8:D:\\Instrumind_Documentation\\InstrumindThinkComposer_Manual.pdf"
-            "TargetName" = "8:InstrumindThinkComposer_Manual.pdf"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1102,7 +1038,7 @@
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C43D0D99DA3F4CEFA14586FE5BBABCA9"
             {
-            "SourcePath" = "8:D:\\Instrumind_Resources\\Images\\Logos\\ThinkComposer_byInstrumind_banner.jpg"
+            "SourcePath" = "8:..\\ThinkComposer\\ThinkComposer_byInstrumind_banner.jpg"
             "TargetName" = "8:ThinkComposer_byInstrumind_banner.jpg"
             "Tag" = "8:"
             "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
@@ -1120,34 +1056,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D0FB684977A242BA8448837550E9E9EE"
-            {
-            "SourcePath" = "8:D:\\Instrumind_Resources\\Images\\IconPics\\TC_Composition.ico"
-            "TargetName" = "8:TC_Composition.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D9C4A68C7E0417B3442109ED6E84B988"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C9898DD7F69F04E6CA987866C6C9BA6A"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Instrumind.Common, Version=1.0.5971.34406, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:Instrumind.Common, Version=1.0.7577.13988, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_D9C4A68C7E0417B3442109ED6E84B988"
+                    "_C9898DD7F69F04E6CA987866C6C9BA6A"
                     {
                     "Name" = "8:Instrumind.Common.dll"
                     "Attributes" = "3:512"
@@ -1171,6 +1087,57 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CCF01D11CB4196AA427A415140AC8CDA"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Instrumind.Common, Version=1.0.7577.12844, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_CCF01D11CB4196AA427A415140AC8CDA"
+                    {
+                    "Name" = "8:Instrumind.Common.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Instrumind.Common.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D0FB684977A242BA8448837550E9E9EE"
+            {
+            "SourcePath" = "8:..\\ThinkComposer\\TC_Composition.ico"
+            "TargetName" = "8:TC_Composition.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E005FDD3EE7F476880D44D474D956574"
             {
             "SourcePath" = "8:..\\PredefinedContent\\Influence_Diagram.tdom"
@@ -1189,6 +1156,68 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EE37AF7D117E01AD876DC53B9239768D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ICSharpCode.AvalonEdit, Version=4.2.7504.12975, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_EE37AF7D117E01AD876DC53B9239768D"
+                    {
+                    "Name" = "8:ICSharpCode.AvalonEdit.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:ICSharpCode.AvalonEdit.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FEC2AC7C291886A6DEE3C654880F1B52"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:PdfSharp-WPF, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_FEC2AC7C291886A6DEE3C654880F1B52"
+                    {
+                    "Name" = "8:PdfSharp-WPF.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:PdfSharp-WPF.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -1509,10 +1538,10 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_B783CE67366143D08E11A156FE4C8AB7"
+            "Target" = "8:"
             "Folder" = "8:_472157AF28E6426CA61AFF5528944BBA"
             "WorkingFolder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Icon" = "8:_399C3B6CA04F485BAB72CE85EE90A402"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_582A7EED10EA4587ADE0DD83B9828B60"

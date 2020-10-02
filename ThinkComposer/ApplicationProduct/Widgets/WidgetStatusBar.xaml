@@ -125,8 +125,8 @@
                             <DockPanel Margin="1" ToolTip="{Binding Overview, Converter={StaticResource EmptyTextToNullConverter}}">
                                 <Image DockPanel.Dock="Left" Source="{Binding Icon}" Width="32" Height="32" Margin="0,0,2,0" />
                                 <DockPanel Margin="0,-2,0,0">
-                                    <TextBlock Text="{Binding Title, FallbackValue='[No Composition]'}" DockPanel.Dock="Top" FontWeight="700" FontSize="12" />
-                                    <TextBlock Text="{Binding SimplifiedLocation, FallbackValue='[No Document (No Folder)]'}" FontWeight="400" FontSize="11" />
+                                    <TextBlock Text="{Binding Title, FallbackValue='[No Composition]'}" DockPanel.Dock="Top" FontWeight="Bold" FontSize="12" />
+                                    <TextBlock Text="{Binding SimplifiedLocation, FallbackValue='[No Document (No Folder)]'}" FontWeight="Normal" FontSize="11" />
                                 </DockPanel>
                             </DockPanel>
                         </DataTemplate>
@@ -155,7 +155,7 @@
             </DockPanel>
         </DockPanel>
         <Border x:Name="StampBorder" Background="Yellow" Height="18" Width="110" BorderBrush="Gold" BorderThickness="2" IsHitTestVisible="false"
-                Opacity="0.5" CornerRadius="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,-100,0,0" >
+                Opacity="0.5" CornerRadius="3" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,-100,0,0" Visibility="Hidden" >
             <TextBlock x:Name="StampText" Text="NON-COMMERCIAL" Foreground="Red" FontSize="14" FontFamily="Impact" Opacity="1"
                                    HorizontalAlignment="Center" VerticalAlignment="Center" />
             <Border.LayoutTransform>

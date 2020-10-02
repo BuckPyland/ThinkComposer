@@ -20,15 +20,15 @@
 /// Library of general purpose components and features across Instrumind products.
 namespace Instrumind.Common
 {
-    /// Instrumind company information.
-    public static class Company
-    {
-        public const string NAME_SIMPLE = "Instrumind"; // Used for directory name generation and product name prefix.
-        public const string NAME_LEGAL = "Néstor Marcel Sánchez Ahumada";   // "Instrumind Software S.p.A.";
-        public const string WEBSITE_URL = "http://thinkcomposer.codeplex.com";
-        //- public const string CONTACT_EMAIL = "contact@instrumind.com";
-        //- public const string SUPPORT_EMAIL = "support@instrumind.com";
-        public const string PUBLICKEY_TOKEN = General.UNSPECIFIED;
-        public const string GENERIC_CONTENTTYPE_CODE = "application/x-instrumind";
-    }
+   /// Instrumind company information.
+   public static class Company
+   {
+      public const string NAME_SIMPLE = "Instrumind"; // Used for directory name generation and product name prefix.
+      public const string NAME_LEGAL = "Néstor Marcel Sánchez Ahumada";   // "Instrumind Software S.p.A.";
+      public const string WEBSITE_URL = "https://github.com/nmarcel/ThinkComposer";
+      //- public const string CONTACT_EMAIL = "contact@instrumind.com";
+      //- public const string SUPPORT_EMAIL = "support@instrumind.com";
+      public const string PUBLICKEY_TOKEN = General.UNSPECIFIED;
+      public const string GENERIC_CONTENTTYPE_CODE = "application/x-instrumind";
+   }
 }

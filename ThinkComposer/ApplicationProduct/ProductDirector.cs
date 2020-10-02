@@ -76,7 +76,7 @@ namespace Instrumind.ThinkComposer.ApplicationProduct
         /// <summary>
         /// Year(s) of the copyright registration.
         /// </summary>
-        public const string APPLICATION_COPYRIGHT_YEARS = "2011-2016";
+        public const string APPLICATION_COPYRIGHT_YEARS = "2011-2020";
 
         /// <summary>
         /// Product web site.

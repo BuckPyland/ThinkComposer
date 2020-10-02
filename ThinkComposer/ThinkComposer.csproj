@@ -153,11 +153,11 @@
     <Compile Include="ApplicationProduct\AppHelp.xaml.cs">
       <DependentUpon>AppHelp.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ApplicationProduct\AppVersionUpdate.xaml.cs">
-      <DependentUpon>AppVersionUpdate.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ApplicationProduct\AppRegistration.xaml.cs">
       <DependentUpon>AppRegistration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationProduct\AppVersionUpdate.xaml.cs">
+      <DependentUpon>AppVersionUpdate.xaml</DependentUpon>
     </Compile>
     <Compile Include="ApplicationProduct\DomainSelector.xaml.cs">
       <DependentUpon>DomainSelector.xaml</DependentUpon>
@@ -475,11 +475,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="ApplicationProduct\AppVersionUpdate.xaml">
+    <Page Include="ApplicationProduct\AppRegistration.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="ApplicationProduct\AppRegistration.xaml">
+    <Page Include="ApplicationProduct\AppVersionUpdate.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -731,6 +731,7 @@
     <EmbeddedResource Include="ApplicationProduct\BaseTemplates\CSharp_Class.tct" />
     <EmbeddedResource Include="ApplicationProduct\BaseTemplates\SQL_Table.tct" />
     <EmbeddedResource Include="ApplicationProduct\BaseTemplates\CSharp_Interface.tct" />
+    <None Include="InstrumindThinkComposer_Manual.docx" />
     <None Include="Properties\app.manifest" />
     <Resource Include="Fonts\VENUSRIS.ttf" />
     <Resource Include="Fonts\VOX.TTF" />
@@ -1570,6 +1571,14 @@
   <ItemGroup>
     <Resource Include="ApplicationProduct\Images\shape_multiple.png" />
     <Resource Include="ApplicationProduct\Images\shape_tilt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="install.ico" />
+    <Resource Include="Instrumind.ico" />
+    <Resource Include="TC_Composition.ico" />
+    <Resource Include="TC_Domain.ico" />
+    <Resource Include="ThinkComposer.ico" />
+    <Resource Include="ThinkComposer_byInstrumind_banner.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

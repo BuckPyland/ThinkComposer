@@ -16,7 +16,7 @@
             </Image.Effect>
         </Image>
         <StackPanel>
-            <TextBlock x:Name="BtnText" FontSize="11" FontWeight="700" TextAlignment="Left" VerticalAlignment="Center" Margin="2,0,2,0" Padding="2,0,2,0" TextWrapping="Wrap"
+            <TextBlock x:Name="BtnText" FontSize="11" FontWeight="Bold" TextAlignment="Left" VerticalAlignment="Center" Margin="2,0,2,0" Padding="2,0,2,0" TextWrapping="Wrap"
                        Text="Button's Option" />
             <TextBlock x:Name="BtnSummary" FontSize="11" TextAlignment="Left" VerticalAlignment="Center" Margin="2,0,2,0" Padding="2,0,2,0" TextWrapping="Wrap"
                        Text="This is the option button's summary." />

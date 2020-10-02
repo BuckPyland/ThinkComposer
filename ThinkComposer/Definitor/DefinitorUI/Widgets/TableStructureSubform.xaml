@@ -28,7 +28,7 @@
                                 <Line Stroke="Black" X1="0" Y1="7" X2="7" Y2="0" StrokeThickness="2.5" />
                             </Grid>
                         </Button>
-                        <TextBlock Text="Key" FontWeight="700" Margin="2"
+                        <TextBlock Text="Key" FontWeight="Bold" Margin="2"
                                    ToolTip="Fields whose combination will identify records as a unique/single entity." />
                     </DockPanel>
                     <ListBox x:Name="LstbxUniqueKeyFields" MinWidth="100" MinHeight="70" Margin="2" BorderBrush="Transparent"/>
@@ -87,7 +87,7 @@
         </DockPanel>
         <Border Background="WhiteSmoke" CornerRadius="5" Margin="2">
             <DockPanel>
-                <TextBlock DockPanel.Dock="Top" Text="Field Definitions" FontWeight="700" Margin="2"
+                <TextBlock DockPanel.Dock="Top" Text="Field Definitions" FontWeight="Bold" Margin="2"
                            ToolTip="Defines the Fields (elementary data attributes), that compose Table records." />
                 <Border x:Name="BrdFields" Padding="2" />
             </DockPanel>

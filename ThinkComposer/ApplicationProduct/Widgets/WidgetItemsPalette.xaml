@@ -60,7 +60,7 @@
                                 <DropShadowEffect Color="DarkGray" Opacity="0.5" ShadowDepth="3" />
                             </Image.Effect>
                         </Image>
-                        <TextBlock Text="{Binding Name}" FontWeight="400" FontSize="10" FontFamily="Tahoma"
+                        <TextBlock Text="{Binding Name}" FontWeight="Normal" FontSize="10" FontFamily="Tahoma"
                                        Foreground="{StaticResource {ComponentResourceKey TypeInTargetAssembly={x:Type wg:EntitledPanel}, ResourceId=ItemTextBrush}}">
                                 <!--difficult to read
                                 <TextBlock.Effect>

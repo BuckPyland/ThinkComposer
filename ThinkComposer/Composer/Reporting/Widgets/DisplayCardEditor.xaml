@@ -9,7 +9,7 @@
     <Border Background="White" CornerRadius="3">
         <DockPanel x:Name="DataPanel" Margin="1">
             <CheckBox x:Name="CbxTitle" DockPanel.Dock="Left" Content="[Property-Name]"
-                      IsChecked="{Binding Show}" Margin="2" />
+                      IsChecked="{Binding Show}" Margin="2,4,2,2" />
             <Image Stretch="None" Source="/Instrumind.ThinkComposer;component/ApplicationProduct/Images/rep_dis_card.png"
                    ToolTip="Style: Card" />
             <!--<imcv:PaletteToggleButton x:Name="BtnExpander" ToolTip="Show/hide detailed configuration"
@@ -18,7 +18,7 @@
             <Border x:Name="BrdDetailedConfig" Background="Gainsboro" CornerRadius="3" Margin="2">
                 <Border.Resources>
                     <Style TargetType="CheckBox">
-                        <Setter Property="Margin" Value="2,2,8,2" />
+                        <Setter Property="Margin" Value="2,2,7,2" />
                         <Setter Property="FontSize" Value="9" />
                     </Style>
                 </Border.Resources>
@@ -27,7 +27,7 @@
                     <CheckBox DockPanel.Dock="Left" Content="Tech-Name" IsChecked="{Binding PropTechName}" Unchecked="CheckBox_Unchecked" />
                     <CheckBox DockPanel.Dock="Left" Content="Summary" IsChecked="{Binding PropSummary}" Unchecked="CheckBox_Unchecked" />
                     <CheckBox DockPanel.Dock="Left" Content="Pictogram" IsChecked="{Binding PropPictogram}" Unchecked="CheckBox_Unchecked" />
-                    <CheckBox DockPanel.Dock="Left" Content="Globa-lId" IsChecked="{Binding PropGlobalId}" Unchecked="CheckBox_Unchecked" />
+                    <CheckBox DockPanel.Dock="Left" Content="Global-Id" IsChecked="{Binding PropGlobalId}" Unchecked="CheckBox_Unchecked" />
                     <CheckBox DockPanel.Dock="Left" Content="Description" IsChecked="{Binding PropDescription}" Unchecked="CheckBox_Unchecked" />
                     <CheckBox DockPanel.Dock="Left" Content="Versioning" IsChecked="{Binding PropVersioning}" Unchecked="CheckBox_Unchecked" />
                     <CheckBox DockPanel.Dock="Left" Content="Route" IsChecked="{Binding Route}" Unchecked="CheckBox_Unchecked" />

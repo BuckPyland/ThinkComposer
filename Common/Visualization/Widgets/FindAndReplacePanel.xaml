@@ -30,7 +30,7 @@
                         <this:PaletteButton x:Name="BtnFind" DockPanel.Dock="Right" Margin="4,0,4,0"
                                             ButtonText="_Find Next" IsDefault="True" Width="100" Height="24"
                                             Click="BtnFind_Click" HorizontalAlignment="Stretch" VerticalAlignment="Center"
-                                            ButtonImage="/Instrumind.ThinkComposer;component/ApplicationProduct/Images/find.png" TabIndex="30" />
+                                            ButtonImage="../Images/find.png" TabIndex="30" />
                         <ComboBox x:Name="CmbFind" IsEditable="True" Height="24" VerticalAlignment="Top"
                                   Text="{Binding FindText}" ItemsSource="{Binding FindTextHistory}" TabIndex="10" />
                     </DockPanel>
@@ -41,10 +41,10 @@
                     <DockPanel>
                         <StackPanel DockPanel.Dock="Right">
                             <this:PaletteButton x:Name="BtnReplace" ButtonText="_Replace" ToolTip="Replaces the selected occurrences and exits." Margin="4,0,4,0"
-                                                ButtonImage="/Instrumind.ThinkComposer;component/ApplicationProduct/Images/table_lightning.png" Width="100" Height="24"
+                                                ButtonImage="../Images/table_lightning.png" Width="100" Height="24"
                                                 Click="BtnReplace_Click" TabIndex="40" />
                             <this:PaletteButton x:Name="BtnReplaceAll" ButtonText="Replace _All" ToolTip="Replaces the selected occurrences and exits." Margin="4,2,4,0"
-                                                ButtonImage="/Instrumind.ThinkComposer;component/ApplicationProduct/Images/table_lightning.png" Width="100" Height="24"
+                                                ButtonImage="../Images/table_lightning.png" Width="100" Height="24"
                                                 Click="BtnReplaceAll_Click" TabIndex="50" />
                         </StackPanel>
                         <ComboBox x:Name="CmbReplace" IsEditable="True" Height="24" VerticalAlignment="Top"

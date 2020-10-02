@@ -159,6 +159,10 @@ namespace Instrumind.Common.Visualization.Widgets
             SelectionButton tb = depobj as SelectionButton;
             tb.BtnSummary.Text = evargs.NewValue as string;
 
+            // Buck added -- 2020-09-29
+            tb.ToolTip = evargs.NewValue;
+            //
+
             tb.BtnSummary.Visibility = (tb.BtnSummary.Text.IsAbsent() ? Visibility.Collapsed : Visibility.Visible);
         }
 

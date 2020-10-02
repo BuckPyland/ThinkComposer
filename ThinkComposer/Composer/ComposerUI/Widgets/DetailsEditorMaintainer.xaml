@@ -87,7 +87,7 @@
 
                             <!-- Notice that Background and BorderThickness are changed within a DataTrigger -->
                             <TextBox x:Name="TxtName" Text="{Binding Name}" IsReadOnly="{Binding Path=CanEditDesignator, Converter={StaticResource BoolToInverseConverter}}"
-                                     ToolTip="{Binding Summary, Converter={StaticResource EmptyTextToNullConverter}}" FontSize="10" FontWeight="700" Margin="2" BorderThickness="0" MinWidth="165" />
+                                     ToolTip="{Binding Summary, Converter={StaticResource EmptyTextToNullConverter}}" FontSize="10" FontWeight="Bold" Margin="2" BorderThickness="0" MinWidth="165" />
                         </DockPanel>
                     </DockPanel>
                 </Border>

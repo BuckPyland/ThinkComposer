@@ -33,7 +33,7 @@
                             </StackPanel>
                             <Border CornerRadius="3" Padding="2,0,2,0" Margin="1"
                                     Background="{StaticResource {ComponentResourceKey TypeInTargetAssembly={x:Type this:DialogOptionsWindow}, ResourceId=DialogTitleBrush}}">
-                                <TextBlock x:Name="TitleTextBlock" FontWeight="700" Margin="2" Foreground="White" MouseDown="DialogItemsWindow_MouseDown" Text="Window Title" >
+                                <TextBlock x:Name="TitleTextBlock" FontWeight="Bold" Margin="2" Foreground="White" MouseDown="DialogItemsWindow_MouseDown" Text="Window Title" >
                                     <TextBlock.Effect>
                                         <DropShadowEffect Opacity="0.5" Color="Black" ShadowDepth="3" />
                                     </TextBlock.Effect>

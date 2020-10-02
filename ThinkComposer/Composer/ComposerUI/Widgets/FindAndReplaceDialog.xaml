@@ -24,31 +24,31 @@
             <DockPanel>
                 <DockPanel DockPanel.Dock="Bottom">
                     <GroupBox DockPanel.Dock="Left" Header="Options..." Width="200">
-                        <StackPanel Margin="4,2,4,2">
-                            <CheckBox x:Name="CbxCaseSensitive" Content="Case sensitive" Margin="4,2,4,2" />
-                            <CheckBox x:Name="CbxWholeWord" Content="Whole word" Margin="4,2,4,2" />
+                        <StackPanel Margin="2">
+                            <CheckBox x:Name="CbxCaseSensitive" Content="Case sensitive" />
+                            <CheckBox x:Name="CbxWholeWord" Content="Whole word" />
                         </StackPanel>
                     </GroupBox>
-                    <GroupBox Header="Properties to inspect..." Margin="2">
+                    <GroupBox Header="Properties to inspect...">
                         <StackPanel Orientation="Horizontal">
-                            <StackPanel Margin="4,2,4,2">
+                            <StackPanel Margin="2">
                                 <CheckBox x:Name="CbxPropName" Content="Name/Title" IsChecked="True" />
                                 <CheckBox x:Name="CbxPropSummary" Content="Summary" IsChecked="True" />
                             </StackPanel>
-                            <StackPanel Margin="4,2,4,2">
+                            <StackPanel Margin="2">
                                 <!--Tech-Name is not selected because is auto-updated on Name change-->
                                 <CheckBox x:Name="CbxPropTechName" Content="Tech-Name" IsChecked="False" />
                                 <CheckBox x:Name="CbxPropDescription" Content="Description (Rich-text)" IsChecked="True" />
                                 <!--<CheckBox x:Name="CbxPropTechSpec" Content="Tech-Spec" />-->
                             </StackPanel>
-                            <StackPanel Margin="4,2,4,2">
+                            <StackPanel Margin="2">
                                 <CheckBox x:Name="CbxPropDetDesignat" Content="Detail Designation" IsChecked="True" />
                                 <CheckBox x:Name="CbxPropDetContent" Content="Detail Content" IsChecked="True" Visibility="Collapsed" />
                                 <CheckBox x:Name="CbxPropTechSpec" Content="Tech-Spec" />
                             </StackPanel>
                         </StackPanel>
                     </GroupBox>
-                    <GroupBox Header="Include..." Margin="2" Width="240">
+                    <GroupBox Header="Include..." Width="240">
                         <StackPanel Orientation="Horizontal">
                             <StackPanel Margin="2">
                                 <CheckBox x:Name="CbxIncludeConcepts" Content="Concepts" IsChecked="True" />
@@ -61,8 +61,8 @@
                             </StackPanel>
                         </StackPanel>
                     </GroupBox>
-                    <GroupBox Header="Scope..." Margin="2">
-                        <StackPanel>
+                    <GroupBox Header="Scope...">
+                        <StackPanel Margin="2">
                             <CheckBox x:Name="CbxScopeComposition" Content="Composition" IsChecked="True" />
                             <CheckBox x:Name="CbxScopeDomain" Content="Domain" IsChecked="False" />
                         </StackPanel>
@@ -101,8 +101,8 @@
                                 Click="BtnCancel_Click"/>
             <Border DockPanel.Dock="Left">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Found texts:" FontSize="11" Margin="2" />
-                    <TextBlock x:Name="TxtCount" Text="0" FontSize="11" FontWeight="Bold" Margin="2" />
+                    <TextBlock Text="Found texts:" Margin="2,11,2,2" />
+                    <TextBlock x:Name="TxtCount" Text="0" FontWeight="Bold" Margin="2,11,2,2" />
                 </StackPanel>
             </Border>
             <DockPanel Visibility="{Binding Path=CanReplace, Converter={StaticResource BoolToVisCollConverter}}">
@@ -112,10 +112,10 @@
                                     Click="BtnReplace_Click" IsEnabled="False" />
                 </Border>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="2,0,32,2">
-                    <imcw:PaletteButton x:Name="BtnSelectAll" ButtonText="Select all" ToolTip="Selects for replacement all the results found" Margin="2"
+                    <imcw:PaletteButton x:Name="BtnSelectAll" ButtonText="Select all" ToolTip="Selects for replacement all the results found" Margin="2,8,2,2"
                                     ButtonImage="/Instrumind.Common;component/Visualization/Images/select_all.png"
                                     Click="BtnSelectAll_Click"/>
-                    <imcw:PaletteButton x:Name="BtnUnselectAll" ButtonText="Unselect all" ToolTip="Unselects for replacement all the results found" Margin="2"
+                    <imcw:PaletteButton x:Name="BtnUnselectAll" ButtonText="Unselect all" ToolTip="Unselects for replacement all the results found" Margin="2,8,2,2"
                                     ButtonImage="/Instrumind.Common;component/Visualization/Images/unselect_all.png"
                                     Click="BtnUnselectAll_Click"/>
                 </StackPanel>
