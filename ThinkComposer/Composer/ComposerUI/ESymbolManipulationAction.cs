@@ -23,99 +23,99 @@ using System.ComponentModel;
 /// Provides the user-interface components for the Composition Composer.
 namespace Instrumind.ThinkComposer.Composer.ComposerUI
 {
-    /// <summary>
-    /// List the available actions to be performed while manipulating view symbols.
-    /// </summary>
-    public enum ESymbolManipulationAction : byte
-    {
-        /// <summary>
-        /// Edit in-place the symbol title.
-        /// </summary>
-        [Description("Edit in-place the symbol title.")]
-        EditInPlace = ((byte)'E'),
+   /// <summary>
+   /// List the available actions to be performed while manipulating view symbols.
+   /// </summary>
+   public enum ESymbolManipulationAction : byte
+   {
+      /// <summary>
+      /// Edit in-place the symbol title.
+      /// </summary>
+      [Description("Edit the symbol title in-place.")]
+      EditInPlace = ((byte)'E'),
 
-        /// <summary>
-        /// Edit Marker assignment.
-        /// </summary>
-        [Description("Edit Marker assignment.")]
-        MarkerEdit = ((byte)'K'),
+      /// <summary>
+      /// Edit Marker assignment.
+      /// </summary>
+      [Description("Edit the Marker assignment.")]
+      MarkerEdit = ((byte)'K'),
 
-        /// <summary>
-        /// Access the detail content (for link goes to address, for attachment invokes the default associated application).
-        /// </summary>
-        [Description("Access the detail content (for link goes to address, for attachment invokes the default associated application, for tables presents the editing grid).")]
-        IndividualDetailAccess = ((byte)'X'),
+      /// <summary>
+      /// Access the detail content (for link goes to address, for attachment invokes the default associated application).
+      /// </summary>
+      [Description("Access the detail content (for a link, goes to address; for an attachment, invokes the default associated application; for a table, presents the editing grid).")]
+      IndividualDetailAccess = ((byte)'X'),
 
-        /// <summary>
-        /// Change the detail content.
-        /// </summary>
-        [Description("Change the detail content.")]
-        IndividualDetailChange = ((byte)'H'),
+      /// <summary>
+      /// Change the detail content.
+      /// </summary>
+      [Description("Change the detail content.")]
+      IndividualDetailChange = ((byte)'H'),
 
-        /// <summary>
-        /// Designate the detail.
-        /// </summary>
-        [Description("Designate the detail.")]
-        IndividualDetailDesignation = ((byte)'N'),
+      /// <summary>
+      /// Designate the detail.
+      /// </summary>
+      [Description("Designate the detail.")]
+      IndividualDetailDesignation = ((byte)'N'),
 
-        /// <summary>
-        /// Expand/Collapse an individual pointed detail.
-        /// </summary>
-        [Description("Expand/Collapse the pointed detail.")]
-        SwitchIndividualDetail = ((byte)'W'),
+      /// <summary>
+      /// Expand/Collapse an individual pointed detail.
+      /// </summary>
+      [Description("Expand/Collapse the pointed detail.")]
+      SwitchIndividualDetail = ((byte)'W'),
 
-        /// <summary>
-        /// Move the symbol.
-        /// </summary>
-        [Description("Move the symbol. Press [Ctrl] to include Targets and [Shift] to include Origins. On simple Relationships [Alt-Right] locks position.")]
-        Move = ((byte)'M'),
+      /// <summary>
+      /// Move the symbol.
+      /// </summary>
+      [Description("Move the symbol. Press [Ctrl] to include Targets and [Shift] to include Origins. On simple Relationships, [Alt-Right] locks the position.")]
+      Move = ((byte)'M'),
 
-        /// <summary>
-        /// Resize the symbol.
-        /// </summary>
-        [Description("Resize the symbol. Press [Alt-Left] to perform a symmetric resizing.")]
-        Resize = ((byte)'S'),
+      /// <summary>
+      /// Resize the symbol.
+      /// </summary>
+      [Description("Resize the symbol. Press [Alt-Left] to perform symmetric resizing.")]
+      Resize = ((byte)'S'),
 
-        /// <summary>
-        /// Open/Close the symbol Details.
-        /// </summary>
-        [Description("Open/Close the Idea Details.")]
-        ActionSwitchDetails = ((byte)'D'),
+      /// <summary>
+      /// Open/Close the symbol Details.
+      /// </summary>
+      [Description("Open/Close the Idea Details.")]
+      ActionSwitchDetails = ((byte)'D'),
 
-        /// <summary>
-        /// Expand/Collapse the symbol visually Related Targets/Origins.
-        /// </summary>
-        [Description("Expand/Collapse the symbol Related Targets (Press [Alt-Left] for the Origins).")]
-        ActionSwitchRelated = ((byte)'R'),
+      /// <summary>
+      /// Expand/Collapse the symbol visually Related Targets/Origins.
+      /// </summary>
+      [Description("Expand/Collapse the symbol's Related Targets (Press [Alt-Left] for the Origins).")]
+      ActionSwitchRelated = ((byte)'R'),
 
-        /// <summary>
-        /// Show the symbol Composite-Content as View.
-        /// </summary>
-        [Description("Show the Idea Composite-Content as View.")]
-        ActionShowCompositeAsView = ((byte)'C'),
+      /// <summary>
+      /// Show the symbol Composite-Content as View.
+      /// </summary>
+      [Description("Show the Idea Composite-Content as View.")]
+      ActionShowCompositeAsView = ((byte)'C'),
 
-        /// <summary>
-        /// Show the Properties editor.
-        /// </summary>
-        [Description("Show the Properties editor.")]
-        ActionEditProperties = ((byte)'P'),
+      /// <summary>
+      /// Show the Properties editor.
+      /// </summary>
+      [Description("Show the Properties editor.")]
+      ActionEditProperties = ((byte)'P'),
 
-        /// <summary>
-        /// Display/Hide the Composite-Content View instead of Details.
-        /// </summary>
-        [Description("Display/Hide the Composite-Content View instead of Details.")]
-        ActionShowCompositeAsDetail = ((byte)'V'),
+      /// <summary>
+      /// Display/Hide the Composite-Content View instead of Details.
+      /// </summary>
+      [Description("Display/Hide the Composite-Content View instead of Details.")]
+      ActionShowCompositeAsDetail = ((byte)'V'),
 
-        /// <summary>
-        /// Add New Detail.
-        /// </summary>
-        [Description("Add New Detail.")]
-        ActionAddDetail = ((byte)'A'),
+      /// <summary>
+      /// Add new Detail.
+      /// </summary>
+      [Description("Add new Detail.")]
+      ActionAddDetail = ((byte)'A'),
 
-        /// <summary>
-        /// Go to Shortcut Target.
-        /// </summary>
-        [Description("Go to Shortcut Target.")]
-        GoToShortcutTarget = ((byte)'G')
-    }
+      /// <summary>
+      /// Go to Shortcut Target.
+      /// </summary>
+      [Description("Go to Shortcut Target.")]
+      GoToShortcutTarget = ((byte)'G')
+   }
 }

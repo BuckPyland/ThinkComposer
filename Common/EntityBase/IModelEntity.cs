@@ -22,31 +22,34 @@ using System.ComponentModel;
 
 using Instrumind.Common.EntityDefinition;
 
-/// Provides a foundation of structures and services for business entities management, considering its life cycle, edition and persistence mapping.
+// Provides a foundation of structures and services for business entities management,
+// considering its life cycle, edition and persistence mapping.
 namespace Instrumind.Common.EntityBase
 {
-    /// <summary>
-    /// Represents a business entity to be consumed by referrals, for edition, persistence mapping, and life cycle control purposes.
-    /// </summary>
-    public interface IModelEntity : IMModelClass
-    {
-        // Redefines base member for simpler editing.
-        new MModelClassDefinitor ClassDefinition { get; }
+   /// <summary>
+   /// Represents a business entity to be consumed by referrals, for edition, persistence mapping, and life cycle control purposes.
+   /// </summary>
+   public interface IModelEntity : IMModelClass
+   {
+      /// <summary>
+      /// Redefines base member for simpler editing. 
+      /// </summary>
+      new MModelClassDefinitor ClassDefinition { get; }
 
-        /// <summary>
-        /// Engine in charge of editing this entity instance.
-        /// </summary>
-        EntityEditEngine EditEngine { get; set; }
+      /// <summary>
+      /// Engine in charge of editing this entity instance.
+      /// </summary>
+      EntityEditEngine EditEngine { get; set; }
 
-        /// <summary>
-        /// Refreshes this instance and any related dependencies.
-        /// To be called post state change and when propagation is desired.
-        /// </summary>
-        void RefreshEntity();
+      /// <summary>
+      /// Refreshes this instance and any related dependencies.
+      /// To be called post state change and when propagation is desired.
+      /// </summary>
+      void RefreshEntity();
 
-        /// <summary>
-        /// Controller for the entity instance.
-        /// </summary>
-        MEntityInstanceController Controller { get; set; }
-    }
+      /// <summary>
+      /// Controller for the entity instance.
+      /// </summary>
+      MEntityInstanceController Controller { get; set; }
+   }
 }

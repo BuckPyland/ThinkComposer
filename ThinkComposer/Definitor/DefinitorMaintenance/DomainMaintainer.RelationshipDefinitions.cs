@@ -48,247 +48,375 @@ using Instrumind.ThinkComposer.MetaModel.VisualMetaModel;
 /// Maintenance services of Domain related Definitions.
 namespace Instrumind.ThinkComposer.Definitor.DefinitorMaintenance
 {
-    /// <summary>
-    /// Provides maintenance services for a Domain entity. Relationship Definitions part.
-    /// </summary>
-    public static partial class DomainMaintainer
-    {
-        public const string TABKEY_DEF_REL_LINKROLEDEF_ORIPAR = "DEF_REL_LNKROLDEF_ORIPAR";
-        public const string TABKEY_DEF_REL_LINKROLEDEF_TARGET = "DEF_REL_LNKROLDEF_TARGET";
-        public const string TABKEY_DEF_REL_CONNFORMAT = "DEF_REL_CONNFMT";
+   /// <summary>
+   /// Provides maintenance services for a Domain entity. Relationship Definitions part.
+   /// </summary>
+   public static partial class DomainMaintainer
+   {
+      public const string TABKEY_DEF_REL_LINKROLEDEF_ORIPAR = "DEF_REL_LNKROLDEF_ORIPAR";
+      public const string TABKEY_DEF_REL_LINKROLEDEF_TARGET = "DEF_REL_LNKROLDEF_TARGET";
+      public const string TABKEY_DEF_REL_CONNFORMAT = "DEF_REL_CONNFMT";
 
-        public const double RELDEFWND_INI_WIDTH = 920;  // 820;
-        public const double RELDEFWND_INI_HEIGHT = 715; // 720;
+      public const double RELDEFWND_INI_WIDTH = 920;  // 820;
+      public const double RELDEFWND_INI_HEIGHT = 715; // 720;
 
-        public static void SetRelationshipDefinitionsMaintainer(ItemsGridMaintainer<Domain, RelationshipDefinition> TargetMaintainer)
-        {
-            TargetMaintainer.CreateItemOperation = RelationshipDefinitionCreate;
-            TargetMaintainer.DeleteItemOperation = RelationshipDefinitionDelete;
-            TargetMaintainer.EditItemOperation = RelationshipDefinitionEdit;
-            TargetMaintainer.CloneItemOperation = RelationshipDefinitionClone;
-        }
+      public static void SetRelationshipDefinitionsMaintainer(ItemsGridMaintainer<Domain, RelationshipDefinition> TargetMaintainer)
+      {
+         TargetMaintainer.CreateItemOperation = RelationshipDefinitionCreate;
+         TargetMaintainer.DeleteItemOperation = RelationshipDefinitionDelete;
+         TargetMaintainer.EditItemOperation = RelationshipDefinitionEdit;
+         TargetMaintainer.CloneItemOperation = RelationshipDefinitionClone;
+      }
 
-        public static RelationshipDefinition RelationshipDefinitionCreate(Domain OwnerEntity, IList<RelationshipDefinition> EditedList)
-        {
-            if (!ProductDirector.ValidateEditionPermission(AppExec.LIC_EDITION_FREE, "create Relationship Definitions"))
-                return null;
-
-            var ItemsCount = OwnerEntity.ConceptDefinitions.Count + EditedList.Count;
-            var MaxQuota = AppExec.CurrentLicenseEdition.TechName.SelectCorresponding(LicensingConfig.IdeaDefinitionsCreationQuotas);
-
-            if (!ProductDirector.ValidateEditionLimit(ItemsCount + 1, MaxQuota, "create", "Idea Definitions (Concept Defs. + Relationship Defs.)"))
-                return null;
-
-            int NewNumber = EditedList.Count + 1;
-            string NewName = "RelationshipDef" + NewNumber.ToString();
-            var Definitor = new RelationshipDefinition(OwnerEntity, Domain.GenericRelationshipDefinition,
-                                                       NewName, NewName.TextToIdentifier(), Shapes.Ellipse);
-
-            if (RelationshipDefinitionEdit(OwnerEntity, EditedList, Definitor))
-                return Definitor;
-
+      public static RelationshipDefinition RelationshipDefinitionCreate(Domain OwnerEntity, IList<RelationshipDefinition> EditedList)
+      {
+         if (!ProductDirector.ValidateEditionPermission(AppExec.LIC_EDITION_FREE, "create Relationship Definitions"))
             return null;
-        }
 
-        public static bool RelationshipDefinitionEdit(Domain SourceDomain, IList<RelationshipDefinition> EditedList, RelationshipDefinition RelationshipDef)
-        {
-            /*- if (!ProductDirector.ConfirmImmediateApply("Relationship Definition", "DomainEdit.RelationshipDefinition", "ApplyDialogChangesDirectly"))
-                return false; */
+         var ItemsCount = OwnerEntity.ConceptDefinitions.Count + EditedList.Count;
+         var MaxQuota = AppExec.CurrentLicenseEdition.TechName.SelectCorresponding(LicensingConfig.IdeaDefinitionsCreationQuotas);
 
-            var CurrentWindow = Display.GetCurrentWindow();
-            CurrentWindow.Cursor = Cursors.Wait;
+         if (!ProductDirector.ValidateEditionLimit(ItemsCount + 1, MaxQuota, "create", "Idea Definitions (Concept Defs. + Relationship Defs.)"))
+            return null;
 
-            var InstanceController = EntityInstanceController.AssignInstanceController(RelationshipDef,
-                (current, previous, editpanels) =>
-                {
-                    var CurrentDetailsEditor = (GlobalDetailsDefinitor)editpanels.First(editpanel => editpanel is GlobalDetailsDefinitor);
+         int NewNumber = EditedList.Count + 1;
 
-                    // IMPORTANT: Ensure that at least one linking variant is available.
-                    if (current.OriginOrParticipantLinkRoleDef.AllowedVariants.Count < 1)
-                        current.OriginOrParticipantLinkRoleDef.AllowedVariants.Add(current.OwnerDomain.LinkRoleVariants.FirstOrDefault());
+         string NewName = "RelationshipDef" + NewNumber.ToString();
 
-                    if (current.TargetLinkRoleDef != null && current.TargetLinkRoleDef.AllowedVariants.Count < 1)
-                        current.TargetLinkRoleDef.AllowedVariants.Add(current.OwnerDomain.LinkRoleVariants.FirstOrDefault());
+         var Definitor = new RelationshipDefinition(OwnerEntity,
+                                                    Domain.GenericRelationshipDefinition,
+                                                    NewName,
+                                                    NewName.TextToIdentifier(),
+                                                    Shapes.Ellipse);
 
-                    return CurrentDetailsEditor.UpdateRelatedDetailDefinitions(current);
-                });
+         if (RelationshipDefinitionEdit(OwnerEntity, EditedList, Definitor))
+            return Definitor;
 
-            var DetDefEd = GlobalDetailsDefinitor.CreateGlobalDetailsDefinitor(InstanceController.EntityEditor, RelationshipDef);
+         return null;
+      }
 
-            InstanceController.StartEdit();
+      public static bool RelationshipDefinitionEdit(Domain SourceDomain, IList<RelationshipDefinition> EditedList, RelationshipDefinition RelationshipDef)
+      {
+         /*- if (!ProductDirector.ConfirmImmediateApply("Relationship Definition", "DomainEdit.RelationshipDefinition", "ApplyDialogChangesDirectly"))
+             return false; */
 
-            var ExtraGeneralContentsPanel = new Grid();
-            ExtraGeneralContentsPanel.ColumnDefinitions.Add(new ColumnDefinition());
-            ExtraGeneralContentsPanel.ColumnDefinitions.Add(new ColumnDefinition());
+         var CurrentWindow = Display.GetCurrentWindow();
 
-            var ExtraGenContentPanelLeft = new StackPanel();
-            Grid.SetColumn(ExtraGenContentPanelLeft, 0);
-            ExtraGeneralContentsPanel.Children.Add(ExtraGenContentPanelLeft);
+         CurrentWindow.Cursor = Cursors.Wait;
 
-            var ExtraGenContentPanelRight = new StackPanel();
-            Grid.SetColumn(ExtraGenContentPanelRight, 1);
-            ExtraGeneralContentsPanel.Children.Add(ExtraGenContentPanelRight);
-
-            var Expositor = new EntityPropertyExpositor(RelationshipDefinition.__IsComposable.TechName);
-            Expositor.LabelMinWidth = 180;
-            ExtraGenContentPanelLeft.Children.Add(Expositor);
-
-            Expositor = new EntityPropertyExpositor(ConceptDefinition.__IsVersionable.TechName);
-            Expositor.LabelMinWidth = 180;
-            ExtraGenContentPanelLeft.Children.Add(Expositor);
-
-            Expositor = new EntityPropertyExpositor(ConceptDefinition.__HasGroupRegion.TechName);
-            Expositor.LabelMinWidth = 180;
-            ExtraGenContentPanelLeft.Children.Add(Expositor);
-
-            Expositor = new EntityPropertyExpositor(ConceptDefinition.__HasGroupLine.TechName);
-            Expositor.LabelMinWidth = 180;
-            ExtraGenContentPanelLeft.Children.Add(Expositor);
-
-            Expositor = new EntityPropertyExpositor(RelationshipDefinition.__RepresentativeShape.TechName);
-            Expositor.LabelMinWidth = 180;
-            ExtraGenContentPanelLeft.Children.Add(Expositor);
-            Expositor.PostCall(expo =>
+         var InstanceController = EntityInstanceController.AssignInstanceController(RelationshipDef,
+            (current, previous, editpanels) =>
             {
-                var Combo = expo.ValueEditor as ComboBox;
-                if (Combo != null)
+               var CurrentDetailsEditor = (GlobalDetailsDefinitor)editpanels.First(editpanel => editpanel is GlobalDetailsDefinitor);
+
+               // IMPORTANT: Ensure that at least one linking variant is available.
+               if (current.OriginOrParticipantLinkRoleDef.AllowedVariants.Count < 1)
+                  current.OriginOrParticipantLinkRoleDef.AllowedVariants.Add(current.OwnerDomain.LinkRoleVariants.FirstOrDefault());
+
+               if (current.TargetLinkRoleDef != null && current.TargetLinkRoleDef.AllowedVariants.Count < 1)
+                  current.TargetLinkRoleDef.AllowedVariants.Add(current.OwnerDomain.LinkRoleVariants.FirstOrDefault());
+
+               return CurrentDetailsEditor.UpdateRelatedDetailDefinitions(current);
+            });
+
+         var DetDefEd = GlobalDetailsDefinitor.CreateGlobalDetailsDefinitor(InstanceController.EntityEditor, RelationshipDef);
+
+         InstanceController.StartEdit();
+
+         var ExtraGeneralContentsPanel = new Grid();
+
+         ExtraGeneralContentsPanel.ColumnDefinitions.Add(new ColumnDefinition());
+         ExtraGeneralContentsPanel.ColumnDefinitions.Add(new ColumnDefinition());
+
+         var ExtraGenContentPanelLeft = new StackPanel();
+
+         Grid.SetColumn(ExtraGenContentPanelLeft, 0);
+
+         ExtraGeneralContentsPanel.Children.Add(ExtraGenContentPanelLeft);
+
+         var ExtraGenContentPanelRight = new StackPanel();
+
+         Grid.SetColumn(ExtraGenContentPanelRight, 1);
+
+         ExtraGeneralContentsPanel.Children.Add(ExtraGenContentPanelRight);
+
+         var Expositor = new EntityPropertyExpositor(RelationshipDefinition.__IsComposable.TechName)
+         {
+            LabelMinWidth = 180
+         };
+
+         ExtraGenContentPanelLeft.Children.Add(Expositor);
+
+         Expositor = new EntityPropertyExpositor(ConceptDefinition.__IsVersionable.TechName)
+         {
+            LabelMinWidth = 180
+         };
+
+         ExtraGenContentPanelLeft.Children.Add(Expositor);
+
+         // 2020-10-10 -- Buck commented out since the same properties are editable on the Arrange tab.
+         //
+         //Expositor = new EntityPropertyExpositor(ConceptDefinition.__HasGroupRegion.TechName)
+         //{
+         //   LabelMinWidth = 180
+         //};
+
+         //ExtraGenContentPanelLeft.Children.Add(Expositor);
+
+         //Expositor = new EntityPropertyExpositor(ConceptDefinition.__HasGroupLine.TechName)
+         //{
+         //   LabelMinWidth = 180
+         //};
+
+         //ExtraGenContentPanelLeft.Children.Add(Expositor);
+         //
+         // 2020-10-10 -- End
+
+         Expositor = new EntityPropertyExpositor(RelationshipDefinition.__RepresentativeShape.TechName)
+         {
+            LabelMinWidth = 180
+         };
+
+         ExtraGenContentPanelLeft.Children.Add(Expositor);
+
+         Expositor.PostCall(expo =>
+         {
+            if (expo.ValueEditor is ComboBox Combo)
+            {
+               var Panel = new FrameworkElementFactory(typeof(WrapPanel));
+
+               Panel.SetValue(WrapPanel.WidthProperty, 810.0);
+               Panel.SetValue(WrapPanel.ItemWidthProperty, 200.0);
+
+               // Doesn't work as expected:
+               // Panel.SetValue(WrapPanel.OrientationProperty, Orientation.Vertical);
+
+               var Templ = new ItemsPanelTemplate(Panel);
+
+               Combo.ItemsPanel = Templ;
+            }
+         }, true);
+
+         Expositor = new EntityPropertyExpositor(ConceptDefinition.__PreciseConnectByDefault.TechName)
+         {
+            LabelMinWidth = 180
+         };
+
+         ExtraGenContentPanelLeft.Children.Add(Expositor);
+
+         var ClosuredExpositor = new EntityPropertyExpositor(IdeaDefinition.__Cluster.TechName)
+         {
+            LabelMinWidth = 210
+         };
+
+         ExtraGenContentPanelRight.Children.Add(ClosuredExpositor);
+
+         var PropCtl = InstanceController.GetPropertyController(IdeaDefinition.__Cluster.TechName);
+
+         PropCtl.ComplexOptionsProviders =
+             Tuple.Create<IRecognizableElement, Action<object>>(
+                 new SimplePresentationElement("Edit Clusters", "EditClusters", "Edit Clusters", Display.GetAppImage("def_clusters.png")),
+                 obj =>
+                 {
+                    if (DomainServices.DefineDomainIdeaDefClusters(SourceDomain, DomainServices.TABKEY_IDEF_CLUSTER_RELATIONSHIP))
+                       ClosuredExpositor.RetrieveAvailableItems();
+                 }).IntoArray();
+
+         // 2020-10-10 -- Buck commented out since the same properties are editable on the Arrange tab.
+         //
+         //Expositor = new EntityPropertyExpositor(RelationshipDefinition.__CanAutomaticallyCreateRelatedConcepts.TechName)
+         //{
+         //   LabelMinWidth = 210
+         //};
+
+         //ExtraGenContentPanelRight.Children.Add(Expositor);
+         //
+         // 2020-10-10 -- End
+
+         Expositor = new EntityPropertyExpositor(RelationshipDefinition.__IsSimple.TechName)
+         {
+            LabelMinWidth = 210
+         };
+
+         ExtraGenContentPanelRight.Children.Add(Expositor);
+
+         Expositor = new EntityPropertyExpositor(RelationshipDefinition.__HideCentralSymbolWhenSimple.TechName)
+         {
+            LabelMinWidth = 210
+         };
+
+         ExtraGenContentPanelRight.Children.Add(Expositor);
+
+         Expositor = new EntityPropertyExpositor(RelationshipDefinition.__ShowNameIfHidingCentralSymbol.TechName)
+         {
+            LabelMinWidth = 210
+         };
+
+         ExtraGenContentPanelRight.Children.Add(Expositor);
+
+         var VisualSymbolFormatter = new VisualSymbolFormatSubform("DefaultSymbolFormat");
+         var VisualConnectorsFormatter = new VisualConnectorsFormatSubform("DefaultConnectorsFormat", RelationshipDef.DefaultConnectorsFormat);
+
+         var TemplateEd = new TemplateEditor();
+
+         TemplateEd.Initialize(SourceDomain,
+                               SourceDomain.CurrentExternalLanguage.TechName,
+                               typeof(Relationship),
+                               RelationshipDef,
+                               IdeaDefinition.__OutputTemplates,
+                               Domain.__OutputTemplatesForRelationships,
+                               false,
+                               Tuple.Create<string, ImageSource, string, Action<string>>("Insert predefined...",
+                                                                                         Display.GetAppImage("page_white_wrench.png"),
+                                                                                         "Inserts a system predefined Output-Template text, at the current selection.",
+                                                                                         text =>
+                                                                                         {
+                                                                                            var tpl = DomainServices.GetPredefinedOutputTemplate();
+
+                                                                                            if (tpl != null)
+                                                                                               TemplateEd.SteSyntaxEditor.ReplaceTextAtSelection(tpl);
+                                                                                         }),
+                               Tuple.Create<string, ImageSource, string, Action<string>>("Test",
+                                                                                         Display.GetAppImage("page_white_wrench.png"),
+                                                                                         "Test the Template against a source Relationship.",
+                                                                                         text => RememberedTemplateTestRelationship[SourceDomain.OwnerComposition] =
+                                                                                                   TemplateTester.TestTemplate(typeof(Relationship),
+                                                                                                                               RelationshipDef,
+                                                                                                                               IdeaDefinition.__OutputTemplates.Name,
+                                                                                                                               RelationshipDef.GetGenerationFinalTemplate(TemplateEd.CurrentTemplate.Language,
+                                                                                                                                                                          text,
+                                                                                                                                                                          TemplateEd.ChbExtendsBaseTemplate.IsChecked.IsTrue()),
+                                                                                                                               SourceDomain.OwnerComposition,
+                                                                                                                               RememberedTemplateTestRelationship.GetValueOrDefault(SourceDomain.OwnerComposition)
+                                                                                                                                 .NullDefault(SourceDomain.OwnerComposition.CompositeIdeas.OrderBy(idea => idea.Name)
+                                                                                                                                    .FirstOrDefault(idea => idea.IdeaDefinitor == RelationshipDef)
+                                                                                                                                       .NullDefault(SourceDomain.OwnerComposition.DeclaredIdeas.FirstOrDefault(idea => idea is Relationship))))));
+
+         var TemplateTab = TabbedEditPanel.CreateTab(DomainServices.TABKEY_DEF_OUTTEMPLATE, "Output-Templates", "Definition of Output-Templates", TemplateEd);
+
+         var SpecTabs = General.CreateList(TabbedEditPanel.CreateTab(DomainServices.TABKEY_DEF_ARRANGE,
+                                                                     "Arrange",
+                                                                     "Settings for relate and group ideas.",
+                                                                     new ArrangeTabForRelationshipDef(RelationshipDef)),
+                                           TabbedEditPanel.CreateTab(TABKEY_DEF_REL_LINKROLEDEF_ORIPAR,
+                                                                     "Origin/Participant Link-Role Def.",
+                                                                     "Definition of Link-Role for Origin or Participant.",
+                                                                     new LinkRoleDefSpecSubform("OriginOrParticipantLinkRoleDef",
+                                                                                                false,
+                                                                                                RelationshipDef.OriginOrParticipantLinkRoleDef,
+                                                                                                RelationshipDef)),
+                                           TabbedEditPanel.CreateTab(TABKEY_DEF_REL_LINKROLEDEF_TARGET,
+                                                                     "Target Link-Role Def.",
+                                                                     "Definition of Link-Role for Target.",
+                                                                     new LinkRoleDefSpecSubform("TargetLinkRoleDef",
+                                                                                                true,
+                                                                                                RelationshipDef.TargetLinkRoleDef,
+                                                                                                RelationshipDef)),
+                                           TabbedEditPanel.CreateTab(DomainServices.TABKEY_DEF_FORMAT,
+                                                                     "Symbol format",
+                                                                     "Definition for the Central/Main-Symbol format.",
+                                                                     VisualSymbolFormatter),
+                                           TabbedEditPanel.CreateTab(TABKEY_DEF_REL_CONNFORMAT,
+                                                                     "Connectors format",
+                                                                     "Definition for the Connectors format.",
+                                                                     VisualConnectorsFormatter),
+                                           TabbedEditPanel.CreateTab(DomainServices.TABKEY_DEF_DETAILS,
+                                                                     "Details",
+                                                                     "Details definition.",
+                                                                     DetDefEd),
+                                           TemplateTab);
+
+         var EditPanel = Display.CreateEditPanel(RelationshipDef,
+                                                 SpecTabs,
+                                                 true,
+                                                 null,
+                                                 Display.TABKEY_TECHSPEC + General.STR_SEPARATOR + DomainServices.TABKEY_DEF_OUTTEMPLATE,
+                                                 true,
+                                                 false,
+                                                 true,
+                                                 true,
+                                                 ExtraGeneralContentsPanel);
+
+         EditPanel.Loaded +=
+            ((sender, args) =>
+             {
+                var OwnerWindow = EditPanel.GetNearestVisualDominantOfType<Window>();
+
+                OwnerWindow.MinWidth = 750;
+                OwnerWindow.MinHeight = 550;
+                OwnerWindow.PostCall(wnd => CurrentWindow.Cursor = Cursors.Arrow);
+             });
+
+         if (IdeaDefinition.__OutputTemplates.IsAdvanced)
+            EditPanel.ShowAdvancedMembersChanged +=
+               ((show) =>
                 {
-                    var Panel = new FrameworkElementFactory(typeof(WrapPanel));
-                    Panel.SetValue(WrapPanel.WidthProperty, 810.0);
-                    Panel.SetValue(WrapPanel.ItemWidthProperty, 200.0);
-                    // Don't work as expected: Panel.SetValue(WrapPanel.OrientationProperty, Orientation.Vertical);
-                    var Templ = new ItemsPanelTemplate(Panel);
-                    Combo.ItemsPanel = Templ;
-                }
-            }, true);
+                   TemplateTab.SetVisible(show);
 
-            Expositor = new EntityPropertyExpositor(ConceptDefinition.__PreciseConnectByDefault.TechName);
-            Expositor.LabelMinWidth = 180;
-            ExtraGenContentPanelLeft.Children.Add(Expositor);
+                   if (!show)
+                   {
+                      var OwnerTabControl = TemplateTab.GetNearestDominantOfType<TabControl>();
 
-            var ClosuredExpositor = new EntityPropertyExpositor(IdeaDefinition.__Cluster.TechName);
-            ClosuredExpositor.LabelMinWidth = 210;
-            ExtraGenContentPanelRight.Children.Add(ClosuredExpositor);
-            var PropCtl = InstanceController.GetPropertyController(IdeaDefinition.__Cluster.TechName);
-            PropCtl.ComplexOptionsProviders =
-                Tuple.Create<IRecognizableElement, Action<object>>(
-                    new SimplePresentationElement("Edit Clusters", "EditClusters", "Edit Clusters", Display.GetAppImage("def_clusters.png")),
-                    obj =>
-                        {
-                            if (DomainServices.DefineDomainIdeaDefClusters(SourceDomain, DomainServices.TABKEY_IDEF_CLUSTER_RELATIONSHIP))
-                                ClosuredExpositor.RetrieveAvailableItems();
-                        }).IntoArray();
-
-            Expositor = new EntityPropertyExpositor(RelationshipDefinition.__CanAutomaticallyCreateRelatedConcepts.TechName);
-            Expositor.LabelMinWidth = 210;
-            ExtraGenContentPanelRight.Children.Add(Expositor);
-
-            Expositor = new EntityPropertyExpositor(RelationshipDefinition.__IsSimple.TechName);
-            Expositor.LabelMinWidth = 210;
-            ExtraGenContentPanelRight.Children.Add(Expositor);
-
-            Expositor = new EntityPropertyExpositor(RelationshipDefinition.__HideCentralSymbolWhenSimple.TechName);
-            Expositor.LabelMinWidth = 210;
-            ExtraGenContentPanelRight.Children.Add(Expositor);
-
-            Expositor = new EntityPropertyExpositor(RelationshipDefinition.__ShowNameIfHidingCentralSymbol.TechName);
-            Expositor.LabelMinWidth = 210;
-            ExtraGenContentPanelRight.Children.Add(Expositor);
-
-            var VisualSymbolFormatter = new VisualSymbolFormatSubform("DefaultSymbolFormat");
-            var VisualConnectorsFormatter = new VisualConnectorsFormatSubform("DefaultConnectorsFormat", RelationshipDef.DefaultConnectorsFormat);
-
-            var TemplateEd = new TemplateEditor();
-            TemplateEd.Initialize(SourceDomain, SourceDomain.CurrentExternalLanguage.TechName, typeof(Relationship), RelationshipDef,
-                                  IdeaDefinition.__OutputTemplates, Domain.__OutputTemplatesForRelationships, false,
-                                  Tuple.Create<string, ImageSource, string, Action<string>>("Insert predefined...", Display.GetAppImage("page_white_wrench.png"), "Inserts a system predefined Output-Template text, at the current selection.",
-                                                                                            text => { var tpl = DomainServices.GetPredefinedOutputTemplate(); if (tpl != null) TemplateEd.SteSyntaxEditor.ReplaceTextAtSelection(tpl); }),
-                                  Tuple.Create<string, ImageSource, string, Action<string>>("Test", Display.GetAppImage("page_white_wrench.png"), "Test the Template against a source Relationship.",
-                                                                                            text => RememberedTemplateTestRelationship[SourceDomain.OwnerComposition] =
-                                                                                                         TemplateTester.TestTemplate(typeof(Relationship), RelationshipDef, IdeaDefinition.__OutputTemplates.Name,
-                                                                                                                                     RelationshipDef.GetGenerationFinalTemplate(TemplateEd.CurrentTemplate.Language, text, TemplateEd.ChbExtendsBaseTemplate.IsChecked.IsTrue()),
-                                                                                                                                     SourceDomain.OwnerComposition,
-                                                                                                                                     RememberedTemplateTestRelationship.GetValueOrDefault(SourceDomain.OwnerComposition)
-                                                                                                                                         .NullDefault(SourceDomain.OwnerComposition.CompositeIdeas.OrderBy(idea => idea.Name)
-                                                                                                                                                         .FirstOrDefault(idea => idea.IdeaDefinitor ==  RelationshipDef)
-                                                                                                                                                             .NullDefault(SourceDomain.OwnerComposition.DeclaredIdeas
-                                                                                                                                                                 .FirstOrDefault(idea => idea is Relationship))))));
-            var TemplateTab = TabbedEditPanel.CreateTab(DomainServices.TABKEY_DEF_OUTTEMPLATE, "Output-Templates", "Definition of Output-Templates", TemplateEd);
-
-            var SpecTabs = General.CreateList(
-                            TabbedEditPanel.CreateTab(DomainServices.TABKEY_DEF_ARRANGE, "Arrange", "Settings for relate and group ideas.",
-                                                      new ArrangeTabForRelationshipDef(RelationshipDef)),
-                            TabbedEditPanel.CreateTab(TABKEY_DEF_REL_LINKROLEDEF_ORIPAR, "Origin/Participant Link-Role Def.", "Definition of Link-Role for Origin or Participant.",
-                                                      new LinkRoleDefSpecSubform("OriginOrParticipantLinkRoleDef", false, RelationshipDef.OriginOrParticipantLinkRoleDef, RelationshipDef)),
-                            TabbedEditPanel.CreateTab(TABKEY_DEF_REL_LINKROLEDEF_TARGET, "Target Link-Role Def.", "Definition of Link-Role for Target.",
-                                                      new LinkRoleDefSpecSubform("TargetLinkRoleDef", true, RelationshipDef.TargetLinkRoleDef, RelationshipDef)),
-                            TabbedEditPanel.CreateTab(DomainServices.TABKEY_DEF_FORMAT, "Symbol format", "Definition for the Central/Main-Symbol format.",
-                                                      VisualSymbolFormatter),
-                            TabbedEditPanel.CreateTab(TABKEY_DEF_REL_CONNFORMAT, "Connectors format", "Definition for the Connectors format.",
-                                                      VisualConnectorsFormatter),
-                            TabbedEditPanel.CreateTab(DomainServices.TABKEY_DEF_DETAILS, "Details", "Details definition.", DetDefEd),
-                            TemplateTab);
-
-            var EditPanel = Display.CreateEditPanel(RelationshipDef, SpecTabs, true, null, Display.TABKEY_TECHSPEC + General.STR_SEPARATOR + DomainServices.TABKEY_DEF_OUTTEMPLATE,
-                                                    true, false, true, true, ExtraGeneralContentsPanel);
-            EditPanel.Loaded +=
-                ((sender, args) =>
-                {
-                    var OwnerWindow = EditPanel.GetNearestVisualDominantOfType<Window>();
-                    OwnerWindow.MinWidth = 750;
-                    OwnerWindow.MinHeight = 550;
-                    OwnerWindow.PostCall(wnd => CurrentWindow.Cursor = Cursors.Arrow);
+                      if (OwnerTabControl.SelectedItem == TemplateTab)
+                         OwnerTabControl.SelectedIndex = 0;
+                   }
                 });
 
-            if (IdeaDefinition.__OutputTemplates.IsAdvanced)
-                EditPanel.ShowAdvancedMembersChanged +=
-                    ((show) =>
-                    {
-                        TemplateTab.SetVisible(show);
-                        if (!show)
-                        {
-                            var OwnerTabControl = TemplateTab.GetNearestDominantOfType<TabControl>();
-                            if (OwnerTabControl.SelectedItem == TemplateTab)
-                                OwnerTabControl.SelectedIndex = 0;
-                        }
-                    });
+         var Previewer = new VisualElementPreviewer(VisualSymbolFormatter.VisualElementFormatter.ExpoLineBrush,
+                                                    VisualSymbolFormatter.VisualElementFormatter.ExpoLineThickness,
+                                                    VisualSymbolFormatter.VisualElementFormatter.ExpoLineDash,
+                                                    VisualSymbolFormatter.VisualElementFormatter.ExpoMainBackground,
+                                                    VisualConnectorsFormatter.VisualElementFormatter.ExpoLineBrush,
+                                                    VisualConnectorsFormatter.VisualElementFormatter.ExpoLineThickness,
+                                                    VisualConnectorsFormatter.VisualElementFormatter.ExpoLineDash,
+                                                    VisualConnectorsFormatter.VisualElementFormatter.ExpoMainBackground);
 
-            var Previewer = new VisualElementPreviewer(VisualSymbolFormatter.VisualElementFormatter.ExpoLineBrush,
-                                                       VisualSymbolFormatter.VisualElementFormatter.ExpoLineThickness,
-                                                       VisualSymbolFormatter.VisualElementFormatter.ExpoLineDash,
-                                                       VisualSymbolFormatter.VisualElementFormatter.ExpoMainBackground,
-                                                       VisualConnectorsFormatter.VisualElementFormatter.ExpoLineBrush,
-                                                       VisualConnectorsFormatter.VisualElementFormatter.ExpoLineThickness,
-                                                       VisualConnectorsFormatter.VisualElementFormatter.ExpoLineDash,
-                                                       VisualConnectorsFormatter.VisualElementFormatter.ExpoMainBackground);
-            Previewer.AttachSource(RelationshipDef);
-            Previewer.Margin = new Thickness(4);
-            EditPanel.HeaderContent = Previewer;
-            Previewer.PostCall(prv => prv.ShowPreview());   // Required because of initially unpopulated properties of old Domains.
+         Previewer.AttachSource(RelationshipDef);
+         Previewer.Margin = new Thickness(4);
 
-            var Result = InstanceController.Edit(EditPanel, "Edit Relationship Definition - " + RelationshipDef.ToString(), true, null,
-                                                 RELDEFWND_INI_WIDTH, RELDEFWND_INI_HEIGHT).IsTrue();
-            return Result;
-        }
-        public static Dictionary<Composition, Idea> RememberedTemplateTestRelationship = new Dictionary<Composition, Idea>();
+         EditPanel.HeaderContent = Previewer;
 
-        public static bool RelationshipDefinitionDelete(Domain OwnerEntity, IList<RelationshipDefinition> EditedList, RelationshipDefinition RelationshipDef)
-        {
-            var Result = Display.DialogMessage("Confirmation", "Are you sure you want to Delete the '" + RelationshipDef.Name + "' Relationship Definition?",
-                                               EMessageType.Question, System.Windows.MessageBoxButton.YesNo, System.Windows.MessageBoxResult.No);
-            return (Result == MessageBoxResult.Yes);
-        }
+         Previewer.PostCall(prv => prv.ShowPreview());   // Required because of initially unpopulated properties of old Domains.
 
-        public static RelationshipDefinition RelationshipDefinitionClone(Domain OwnerEntity, IList<RelationshipDefinition> EditedList, RelationshipDefinition RelationshipDef)
-        {
-            var Result = new RelationshipDefinition();
-            Result.PopulateFrom(RelationshipDef, null, ECloneOperationScope.Deep);
+         var Result = InstanceController.Edit(EditPanel,
+                                              "Edit Relationship Definition - " + RelationshipDef.ToString(),
+                                              true,
+                                              null,
+                                              RELDEFWND_INI_WIDTH,
+                                              RELDEFWND_INI_HEIGHT).IsTrue();
 
-            var NamesWereEquivalent = (Result.TechName == Result.Name.TextToIdentifier());
-            Result.Name = Result.Name + "(copy)";   // Auto-update of TechName when equivalents
-            if (!NamesWereEquivalent) Result.TechName = Result.TechName + "_copy";
+         return Result;
+      }
 
-            return Result;
-        }
-    }
+      public static Dictionary<Composition, Idea> RememberedTemplateTestRelationship = new Dictionary<Composition, Idea>();
+
+      public static bool RelationshipDefinitionDelete(Domain OwnerEntity, IList<RelationshipDefinition> EditedList, RelationshipDefinition RelationshipDef)
+      {
+         var Result = Display.DialogMessage("Confirmation",
+                                            "Are you sure you want to Delete the '" + RelationshipDef.Name + "' Relationship Definition?",
+                                            EMessageType.Question,
+                                            System.Windows.MessageBoxButton.YesNo,
+                                            System.Windows.MessageBoxResult.No);
+
+         return (Result == MessageBoxResult.Yes);
+      }
+
+      public static RelationshipDefinition RelationshipDefinitionClone(Domain OwnerEntity,
+                                                                       IList<RelationshipDefinition> EditedList,
+                                                                       RelationshipDefinition RelationshipDef)
+      {
+         var Result = new RelationshipDefinition();
+
+         Result.PopulateFrom(RelationshipDef, null, ECloneOperationScope.Deep);
+
+         var NamesWereEquivalent = (Result.TechName == Result.Name.TextToIdentifier());
+
+         Result.Name += "(copy)";   // Auto-update of TechName when equivalents
+
+         if (!NamesWereEquivalent)
+            Result.TechName += "_copy";
+
+         return Result;
+      }
+   }
 }

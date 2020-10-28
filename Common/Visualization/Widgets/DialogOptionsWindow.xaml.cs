@@ -32,183 +32,201 @@ using System.Windows.Shapes;
 /// Library of standard Instrumind WPF custom and user controls.
 namespace Instrumind.Common.Visualization.Widgets
 {
-    /// <summary>
-    /// Interaction logic for DialogOptionsWindow.xaml
-    /// </summary>
-    public partial class DialogOptionsWindow : Window
-    {
-        public static new readonly DependencyProperty TitleProperty;
+   /// <summary>
+   /// Interaction logic for DialogOptionsWindow.xaml
+   /// </summary>
+   public partial class DialogOptionsWindow : Window
+   {
+      public static new readonly DependencyProperty TitleProperty;
 
-        static DialogOptionsWindow()
-        {
-            DialogOptionsWindow.TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(DialogOptionsWindow),
-                new FrameworkPropertyMetadata("DialogOptionsWindow's Title", new PropertyChangedCallback(OnTitleChanged)));
-        }
+      static DialogOptionsWindow()
+      {
+         TitleProperty = DependencyProperty.Register("Title",
+            typeof(string),
+            typeof(DialogOptionsWindow),
+            new FrameworkPropertyMetadata("DialogOptionsWindow's Title",
+            new PropertyChangedCallback(OnTitleChanged)));
+      }
 
-        public DialogOptionsWindow()
-        {
-            InitializeComponent();
+      public DialogOptionsWindow()
+      {
+         InitializeComponent();
 
-            this.Owner = Application.Current.MainWindow;
-            this.MessageText.Text = "";
-            this.AdditionalInfoText.Text = "";
-            this.OptionsPanel.Children.Clear();
+         Owner = Application.Current.MainWindow;
+         MessageText.Text = "";
+         AdditionalInfoText.Text = "";
+         OptionsPanel.Children.Clear();
 
-            this.SizeChanged += AdjustSize;
-            this.LocationChanged += AdjustSize;
-        }
+         SizeChanged += AdjustSize;
+         LocationChanged += AdjustSize;
+      }
 
-        /// <summary>
-        /// Constructor.
-        /// </summary>
-        /// <param name="Title">Window title</param>
-        /// <param name="Message">Dialog message</param>
-        /// <param name="AdditionalInfo">Additional information</param>
-        /// <param name="AdditionalPanel">Additional panel for extended options (such as checkboxes and radiobuttons)</param>
-        /// <param name="SelectionAction">Action to be executed upon option-button selection (it will receive the selected option TechName)</param>
-        /// <param name="DefaultOption">TechName for the option to be marked as default</param>
-        /// <param name="Options">Collection of recognizable-elements to be shown as options (each must have a different Code)</param>
-        public DialogOptionsWindow(string Title, string Message, string AdditionalInfo, Panel AdditionalPanel, Action<string> SelectionAction,
-                                   string DefaultOption, params IRecognizableElement[] Options)
-            : this()
-        {
-            this.Title = ""; // This is OK. Must be established in the Loaded event when the template will be already applied.
-            this.MessageText.Text = Message;
-            this.AdditionalInfoText.Text = AdditionalInfo;
+      /// <summary>
+      /// Constructor.
+      /// </summary>
+      /// <param name="Title">Window title</param>
+      /// <param name="Message">Dialog message</param>
+      /// <param name="AdditionalInfo">Additional information</param>
+      /// <param name="AdditionalPanel">Additional panel for extended options (such as checkboxes and radiobuttons)</param>
+      /// <param name="SelectionAction">Action to be executed upon option-button selection (it will receive the selected option TechName)</param>
+      /// <param name="DefaultOption">TechName for the option to be marked as default</param>
+      /// <param name="Options">Collection of recognizable-elements to be shown as options (each must have a different Code)</param>
+      public DialogOptionsWindow(string Title, string Message,
+                                 string AdditionalInfo, Panel AdditionalPanel,
+                                 Action<string> SelectionAction, string DefaultOption,
+                                 params IRecognizableElement[] Options) : this()
+      {
+         // This is OK.
+         // Must be established in the Loaded event when the template will be already applied.
+         this.Title = "";
+         //
+         MessageText.Text = Message;
+         AdditionalInfoText.Text = AdditionalInfo;
 
-            SelectionButton FocusableButton = null;
-            var RefWindow = this;
-            Action<string> ExtendedSelectionAction =
-                (techname) =>
-                {
-                    SelectionAction(techname);
-                    RefWindow.Close();
-                };
+         SelectionButton FocusableButton = null;
 
-            if (Options != null && Options.Any())
+         var RefWindow = this;
+
+         Action<string> ExtendedSelectionAction = (techname) =>
+         {
+            SelectionAction(techname);
+            RefWindow.Close();
+         };
+
+         if (Options != null && Options.Any())
+         {
+            if (DefaultOption.IsAbsent())
+               DefaultOption = Options.First().TechName;
+
+            foreach (var Option in Options)
             {
-                if (DefaultOption.IsAbsent())
-                    DefaultOption = Options.First().TechName;
+               var NewButton = new SelectionButton(Option, ExtendedSelectionAction);
 
-                foreach (var Option in Options)
-                {
-                    var NewButton = new SelectionButton(Option, ExtendedSelectionAction);
-                    if (Option.TechName == DefaultOption)
-                    {
-                        NewButton.IsDefault = true;
-                        FocusableButton = NewButton;
-                    }
+               if (Option.TechName == DefaultOption)
+               {
+                  NewButton.IsDefault = true;
+                  FocusableButton = NewButton;
+               }
 
-                    this.OptionsPanel.Children.Add(NewButton);
-                }
-
-                if (FocusableButton == null)
-                    FocusableButton = this.OptionsPanel.Children[0] as SelectionButton;
+               OptionsPanel.Children.Add(NewButton);
             }
 
-            if (AdditionalPanel != null)
-                this.ContentPanel.Children.Add(AdditionalPanel);
+            // 2020-10-21 -- Buck added test for OptionsPanel.Children.Count > 0
+            if (FocusableButton == null && OptionsPanel.Children.Count > 0)
+               FocusableButton = OptionsPanel.Children[0] as SelectionButton;
+         }
 
-            var TargetWindow = this;
-            TargetWindow.Loaded += ((sender, args) =>
-            {
-                var BtnRestoreOrMaximize = Display.GetTemplateChild<Button>(TargetWindow, "BtnRestoreOrMaximize", true);
-                BtnRestoreOrMaximize.Visibility = Visibility.Collapsed;
-                TargetWindow.Title = Title;
+         if (AdditionalPanel != null)
+            ContentPanel.Children.Add(AdditionalPanel);
 
-                if (FocusableButton != null)
-                    FocusableButton.Focus();
-            });
-        }
+         var TargetWindow = this;
 
-        private void AdjustSize(object sender, EventArgs args)
-        {
-            if (this.WindowState == System.Windows.WindowState.Maximized)
-                return;
+         TargetWindow.Loaded += (sender, args) =>
+         {
+            var BtnRestoreOrMaximize = Display.GetTemplateChild<Button>(TargetWindow, "BtnRestoreOrMaximize", true);
 
-            //-? if (this.Left + this.ActualWidth > SystemParameters.WorkArea.Width)
-                this.MaxWidth = (this.ExplicitMaxWidth.IsNan() ? SystemParameters.WorkArea.Width - this.Left
-                                                               : this.ExplicitMaxWidth).EnforceRange(SystemParameters.WorkArea.Width / 4.0, SystemParameters.WorkArea.Width);
+            BtnRestoreOrMaximize.Visibility = Visibility.Collapsed;
+            TargetWindow.Title = Title;
 
-            //-? if (this.Top + this.ActualHeight > SystemParameters.WorkArea.Height)
-                this.MaxHeight = (this.ExplicitMaxHeight.IsNan() ? SystemParameters.WorkArea.Height - this.Top
-                                                                 : this.ExplicitMaxHeight).EnforceRange(SystemParameters.WorkArea.Height / 4.0, SystemParameters.WorkArea.Height);
-        }
+            if (FocusableButton != null)
+               FocusableButton.Focus();
+         };
+      }
 
-        public double ExplicitMaxWidth = double.NaN;
+      private void AdjustSize(object sender, EventArgs args)
+      {
+         if (WindowState == System.Windows.WindowState.Maximized)
+            return;
 
-        public double ExplicitMaxHeight = double.NaN;
+         //-? if (this.Left + this.ActualWidth > SystemParameters.WorkArea.Width)
+         MaxWidth = (ExplicitMaxWidth.IsNan() ? SystemParameters.WorkArea.Width - Left
+                                              : ExplicitMaxWidth).EnforceRange(SystemParameters.WorkArea.Width / 4.0, SystemParameters.WorkArea.Width);
 
-        private void DialogOptionsWindow_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            this.DragMove();
+         //-? if (this.Top + this.ActualHeight > SystemParameters.WorkArea.Height)
+         MaxHeight = (ExplicitMaxHeight.IsNan() ? SystemParameters.WorkArea.Height - Top
+                                                : ExplicitMaxHeight).EnforceRange(SystemParameters.WorkArea.Height / 4.0, SystemParameters.WorkArea.Height);
+      }
 
-            if (e.ClickCount == 2 && this.ResizeMode != ResizeMode.NoResize)
-                BtnRestoreOrMaximize_Click(this, null);
-        }
+      public double ExplicitMaxWidth = double.NaN;
 
-        private Thickness AlternateBorderPadding = new Thickness(8);
-        private void BtnRestoreOrMaximize_Click(object sender, RoutedEventArgs e)
-        {
-            if (e != null)
-                e.Handled = true;
+      public double ExplicitMaxHeight = double.NaN;
 
-            var BackPanel = Display.GetTemplateChild<Border>(this, "BackPanel");
-            if (BackPanel == null)
-                return;
+      private void DialogOptionsWindow_MouseDown(object sender, MouseButtonEventArgs e)
+      {
+         DragMove();
 
-            var SwapBorderPadding = BackPanel.Padding;
-            BackPanel.Padding = AlternateBorderPadding;
-            AlternateBorderPadding = SwapBorderPadding;
+         if (e.ClickCount == 2 && ResizeMode != ResizeMode.NoResize)
+            BtnRestoreOrMaximize_Click(this, null);
+      }
 
-            if (this.WindowState == WindowState.Normal)
-            {
-                this.SizeToContent = System.Windows.SizeToContent.Manual;
-                this.MaxWidth = SystemParameters.WorkArea.Width;    //- double.PositiveInfinity;
-                this.MaxHeight = SystemParameters.WorkArea.Height;    //- double.PositiveInfinity;
-                // this.Width = double.NaN;
-                // this.Height = double.NaN;
-                this.WindowState = WindowState.Maximized;
-            }
-            else
-            {
-                this.SizeToContent = System.Windows.SizeToContent.WidthAndHeight;
-                this.WindowState = WindowState.Normal;
-            }
-        }
+      private Thickness AlternateBorderPadding = new Thickness(8);
 
-        private void BtnClose_Click(object sender, RoutedEventArgs e)
-        {
-            if (e != null)
-                e.Handled = true;
+      private void BtnRestoreOrMaximize_Click(object sender, RoutedEventArgs e)
+      {
+         if (e != null)
+            e.Handled = true;
 
-            this.Close();
-        }
+         var BackPanel = Display.GetTemplateChild<Border>(this, "BackPanel");
+         if (BackPanel == null)
+            return;
 
-        public new string Title
-        {
-            get { return (string)GetValue(DialogOptionsWindow.TitleProperty); }
-            set { SetValue(DialogOptionsWindow.TitleProperty, value); }
-        }
+         var SwapBorderPadding = BackPanel.Padding;
+         BackPanel.Padding = AlternateBorderPadding;
+         AlternateBorderPadding = SwapBorderPadding;
 
-        private static void OnTitleChanged(DependencyObject depobj, DependencyPropertyChangedEventArgs evargs)
-        {
-            var textblock = Display.GetTemplateChild<TextBlock>(depobj, "TitleTextBlock");
-            if (textblock == null)
-                return;
+         if (WindowState == WindowState.Normal)
+         {
+            SizeToContent = SizeToContent.Manual;
 
-            textblock.Text = evargs.NewValue as string;
-        }
+            MaxWidth = SystemParameters.WorkArea.Width;     //- double.PositiveInfinity;
+            MaxHeight = SystemParameters.WorkArea.Height;   //- double.PositiveInfinity;
 
-        private void Window_KeyDown(object sender, KeyEventArgs e)
-        {
-            // Needed because the Button.IsCancel property didn't work (maybe for coming from a template)
-            if (e.Key != Key.Escape)
-                return;
+            // Width = double.NaN;
+            // Height = double.NaN;
 
-            this.BtnClose_Click(this, e);
+            WindowState = WindowState.Maximized;
+         }
+         else
+         {
+            SizeToContent = SizeToContent.WidthAndHeight;
 
-            //T Console.WriteLine(e.Key.ToString());
-        }
-    }
+            WindowState = WindowState.Normal;
+         }
+      }
+
+      private void BtnClose_Click(object sender, RoutedEventArgs e)
+      {
+         if (e != null)
+            e.Handled = true;
+
+         Close();
+      }
+
+      public new string Title
+      {
+         get { return (string)GetValue(DialogOptionsWindow.TitleProperty); }
+         set { SetValue(DialogOptionsWindow.TitleProperty, value); }
+      }
+
+      private static void OnTitleChanged(DependencyObject depobj, DependencyPropertyChangedEventArgs evargs)
+      {
+         var textblock = Display.GetTemplateChild<TextBlock>(depobj, "TitleTextBlock");
+         if (textblock == null)
+            return;
+
+         textblock.Text = evargs.NewValue as string;
+      }
+
+      private void Window_KeyDown(object sender, KeyEventArgs e)
+      {
+         // Needed because the Button.IsCancel property didn't work
+         // (maybe for coming from a template)
+         if (e.Key != Key.Escape)
+            return;
+
+         BtnClose_Click(this, e);
+
+         //T Console.WriteLine(e.Key.ToString());
+      }
+   }
 }

@@ -400,7 +400,8 @@ namespace Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets
 
             this.ImgPreview.Source = Result.ToDrawingImage();
          }
-         catch (Exception Problem)
+         //catch (Exception Problem)
+         catch
          {
             // Console.WriteLine("Cannot show preview.");
          }
