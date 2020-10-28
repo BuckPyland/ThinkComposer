@@ -15,14 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0135416F98BB57655ADB696F40B04751"
+        "MsmKey" = "8:_03DD7C9D46CC47CE9E0FC04D0B9BAC9C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_10818B2D7EC65C50FF6CBACF9E8CE88C"
         "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_03DD7C9D46CC47CE9E0FC04D0B9BAC9C"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_10818B2D7EC65C50FF6CBACF9E8CE88C"
+        "OwnerKey" = "8:_83FE64CED9372B0DF0CD8478FC7EE998"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -147,14 +153,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_89D82DD1331F0D9513224195AE09BC8A"
-        "OwnerKey" = "8:_C9898DD7F69F04E6CA987866C6C9BA6A"
+        "MsmKey" = "8:_83FE64CED9372B0DF0CD8478FC7EE998"
+        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_89D82DD1331F0D9513224195AE09BC8A"
-        "OwnerKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
+        "OwnerKey" = "8:_10818B2D7EC65C50FF6CBACF9E8CE88C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -201,6 +207,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_AAEB97119C4317C5CEFD23D7B107A2D3"
+        "OwnerKey" = "8:_10818B2D7EC65C50FF6CBACF9E8CE88C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AAEB97119C4317C5CEFD23D7B107A2D3"
+        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_AD2AC36A0F82444C8E0C24FB26DDE706"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -219,24 +237,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C9898DD7F69F04E6CA987866C6C9BA6A"
-        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
-        "OwnerKey" = "8:_0135416F98BB57655ADB696F40B04751"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
-        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_D0FB684977A242BA8448837550E9E9EE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -245,24 +245,6 @@
         {
         "MsmKey" = "8:_E005FDD3EE7F476880D44D474D956574"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EE37AF7D117E01AD876DC53B9239768D"
-        "OwnerKey" = "8:_C9898DD7F69F04E6CA987866C6C9BA6A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EE37AF7D117E01AD876DC53B9239768D"
-        "OwnerKey" = "8:_76F9AD74DD35454996F01493853EB237"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EE37AF7D117E01AD876DC53B9239768D"
-        "OwnerKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -286,25 +268,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0135416F98BB57655ADB696F40B04751"
+        "OwnerKey" = "8:_83FE64CED9372B0DF0CD8478FC7EE998"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CCF01D11CB4196AA427A415140AC8CDA"
+        "OwnerKey" = "8:_10818B2D7EC65C50FF6CBACF9E8CE88C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C9898DD7F69F04E6CA987866C6C9BA6A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EE37AF7D117E01AD876DC53B9239768D"
+        "OwnerKey" = "8:_AAEB97119C4317C5CEFD23D7B107A2D3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -414,37 +390,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0135416F98BB57655ADB696F40B04751"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DotLiquid, Version=1.7.7577.12844, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_0135416F98BB57655ADB696F40B04751"
-                    {
-                    "Name" = "8:DotLiquid.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:DotLiquid.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03DD7C9D46CC47CE9E0FC04D0B9BAC9C"
             {
             "SourcePath" = "8:..\\ThinkComposer\\Instrumind_ThinkComposer.ico"
@@ -463,6 +408,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_10818B2D7EC65C50FF6CBACF9E8CE88C"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Instrumind.Common, Version=1.0.7606.14732, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_10818B2D7EC65C50FF6CBACF9E8CE88C"
+                    {
+                    "Name" = "8:Instrumind.Common.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Instrumind.Common.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1131521C286141399B9DD6AF07AD2B3B"
@@ -845,6 +821,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_83FE64CED9372B0DF0CD8478FC7EE998"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DotLiquid, Version=1.7.7606.14733, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_83FE64CED9372B0DF0CD8478FC7EE998"
+                    {
+                    "Name" = "8:DotLiquid.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DotLiquid.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_89D82DD1331F0D9513224195AE09BC8A"
             {
             "AssemblyRegister" = "3:1"
@@ -996,6 +1003,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AAEB97119C4317C5CEFD23D7B107A2D3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ICSharpCode.AvalonEdit, Version=4.2.7606.14731, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_AAEB97119C4317C5CEFD23D7B107A2D3"
+                    {
+                    "Name" = "8:ICSharpCode.AvalonEdit.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:ICSharpCode.AvalonEdit.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD2AC36A0F82444C8E0C24FB26DDE706"
             {
             "SourcePath" = "8:..\\PredefinedContent\\Use_Case_diagram.tdom"
@@ -1056,68 +1094,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C9898DD7F69F04E6CA987866C6C9BA6A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Instrumind.Common, Version=1.0.7577.13988, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_C9898DD7F69F04E6CA987866C6C9BA6A"
-                    {
-                    "Name" = "8:Instrumind.Common.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Instrumind.Common.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CCF01D11CB4196AA427A415140AC8CDA"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Instrumind.Common, Version=1.0.7577.12844, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_CCF01D11CB4196AA427A415140AC8CDA"
-                    {
-                    "Name" = "8:Instrumind.Common.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Instrumind.Common.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D0FB684977A242BA8448837550E9E9EE"
             {
             "SourcePath" = "8:..\\ThinkComposer\\TC_Composition.ico"
@@ -1158,37 +1134,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EE37AF7D117E01AD876DC53B9239768D"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ICSharpCode.AvalonEdit, Version=4.2.7504.12975, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_EE37AF7D117E01AD876DC53B9239768D"
-                    {
-                    "Name" = "8:ICSharpCode.AvalonEdit.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:ICSharpCode.AvalonEdit.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FEC2AC7C291886A6DEE3C654880F1B52"
             {
             "AssemblyRegister" = "3:1"
@@ -1226,7 +1171,7 @@
             "{5EB83D71-FA18-4901-BE56-DE22E13CC478}:_497645E9BD804BE2BBFF1939D477A60E"
             {
             "Name" = "8:Composition - ThinkComposer"
-            "Description" = "8:"
+            "Description" = "8:ThinkComposer Composition"
             "Extensions" = "8:.tcom"
             "MIME" = "8:application/x-instrumind-thinkcomposer-composition"
             "Icon" = "8:_D0FB684977A242BA8448837550E9E9EE"
@@ -1249,7 +1194,7 @@
             "{5EB83D71-FA18-4901-BE56-DE22E13CC478}:_F8FD0066BCD34FEA8AB31427C0259EB8"
             {
             "Name" = "8:Domain - ThinkComposer"
-            "Description" = "8:"
+            "Description" = "8:ThinkComposer Domain"
             "Extensions" = "8:.tdom"
             "MIME" = "8:application/x-instrumind-thinkcomposer-domain"
             "Icon" = "8:_22A838FB16354A9B8A76E62373AAB1F7"
@@ -1380,12 +1325,12 @@
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Instrumind ThinkComposer v1.5"
-        "Subject" = "8:Create Concept Maps, Mind Maps and general purpose Diagrams with detailed content."
+        "Subject" = "8:Create Concept Maps, Mind Maps and General-purpose Diagrams with detailed content."
         "ARPCONTACT" = "8:Néstor Sánchez A."
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:The Adaptable Visual Tool for analyze problems, design solutions and express knowledge."
+        "ARPCOMMENTS" = "8:The Adaptable Visual Tool for analyzing problems, designing solutions and expressing knowledge."
         "ARPURLINFOABOUT" = "8:http://www.thinkcomposer.com"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_03DD7C9D46CC47CE9E0FC04D0B9BAC9C"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -1530,20 +1475,6 @@
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_48B942FDD72144ED9E5BA485B2D99957"
-            {
-            "Name" = "8:InstrumindThinkComposer_Manual.pdf"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:"
-            "Folder" = "8:_472157AF28E6426CA61AFF5528944BBA"
-            "WorkingFolder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_582A7EED10EA4587ADE0DD83B9828B60"
             {
             "Name" = "8:Instrumind ThinkComposer"
@@ -1556,6 +1487,20 @@
             "Folder" = "8:_06515B6C048945FDA1D684C010246BCD"
             "WorkingFolder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
             "Icon" = "8:_03DD7C9D46CC47CE9E0FC04D0B9BAC9C"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_912DA6643E5D4FB3BB42F88B3E8D1F38"
+            {
+            "Name" = "8:ThinkComposer Manual"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_512BB3BE5C144F5482487CCB6554B9A9"
+            "Folder" = "8:_472157AF28E6426CA61AFF5528944BBA"
+            "WorkingFolder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
@@ -1969,7 +1914,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_76F9AD74DD35454996F01493853EB237"
             {
-            "SourcePath" = "8:..\\ThinkComposer\\obj\\x86\\Debug\\Instrumind.ThinkComposer.exe"
+            "SourcePath" = "8:..\\ThinkComposer\\obj\\Release\\Instrumind.ThinkComposer.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_20559035084C4D5BAB6232B8CE3FB285"
