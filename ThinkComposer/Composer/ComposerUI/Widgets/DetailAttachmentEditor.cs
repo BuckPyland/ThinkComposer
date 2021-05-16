@@ -40,7 +40,9 @@ namespace Instrumind.ThinkComposer.Composer.ComposerUI.Widgets
 
       protected static string TempFolder;
       protected static FileSystemWatcher FilesWatcher;
+#pragma warning disable CS0649 // Field is never assigned to, and will always have its default value null
       protected static Dispatcher MainWindowDispatcher;
+#pragma warning restore CS0649 // Field is never assigned to, and will always have its default value null
 
       /// <summary>
       /// Collection of exposed attachments as temporal files, where Key=FileName and Value=Attachment.

@@ -752,6 +752,7 @@
     <Resource Include="Visualization\Images\page_white_xps.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CommonClassDiagram.cd" />
     <None Include="InstrumindThinkComposer_Key.pfx" />
   </ItemGroup>
   <ItemGroup>

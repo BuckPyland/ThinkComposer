@@ -1,0 +1,1383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Instrumind.ThinkComposer.App" Collapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.About" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ApplicationProduct\About.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.AppHelp" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationProduct\AppHelp.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.AppOptions" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAA=</HashCode>
+      <FileName>ApplicationProduct\AppOptions.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.AppRegistration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAABACAAAAIAAAAAABEAAAAA=</HashCode>
+      <FileName>ApplicationProduct\AppRegistration.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.AppVersionUpdate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAgABQBAAAAAAAAAAAJEAAABA=</HashCode>
+      <FileName>ApplicationProduct\AppVersionUpdate.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.DomainSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAIEAAIAAABggIAAAAQAAAABAEKARAA=</HashCode>
+      <FileName>ApplicationProduct\DomainSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.LicensingConfig" Collapsed="true">
+    <Position X="60" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAUAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationProduct\LicensingConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.ProductDirector" Collapsed="true">
+    <Position X="49.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EF5CEAgoBHcYCWmRdEARURbBhqEhJsMJoJ5EKIQwgOA=</HashCode>
+      <FileName>ApplicationProduct\ProductDirector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetDocumentVisualizer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAIEABALgEACAAAAAAIYEEAFAAIEAAA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetDocumentVisualizer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetInterrelationsPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACgAAAAAAgAAAAAAAAgABQCIgAAAEIEAIBQAgAI=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetInterrelationsPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetItemsPalette" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAACAAAAAAAAAAIAAIIAAAAoA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetItemsPalette.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetItemsPaletteGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAgA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetItemsPaletteGroup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetMessenger" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAABAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetMessenger.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetNavMap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAACAAAAAAAQAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetNavMap.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetNavTree" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgIAAAGAwBAAAAAAABAAAAAAACBgAUAAASAAAAAAAA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetNavTree.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetPalette" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEQAAAAAAIAAAgAAAAAAAAAQAAEAAAg=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetPalette.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetsHelper" Collapsed="true">
+    <Position X="54.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetsHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetStatusBar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAABAAAAAAAgIAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetStatusBar.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationProduct.Widgets.WidgetVisualSampleSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationProduct\Widgets\WidgetVisualSampleSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationShell.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCIEAIAACAUDJAgJAiAIgBAiIIAACBAABAAAAQEAE=</HashCode>
+      <FileName>ApplicationShell\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.ApplicationShell.MainWindowHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAQAAABABAACBBABAAAAAAQAAAAEAAAAAA=</HashCode>
+      <FileName>ApplicationShell\MainWindowHeader.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.ComplementCreationCommand" Collapsed="true">
+    <Position X="61.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAgAAAAAQQAAAAAAAAAACAAAQCEAAAEBAAAAAA=</HashCode>
+      <FileName>Composer\ComposerUI\ComplementCreationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.ConceptCreationCommand" Collapsed="true">
+    <Position X="49.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACECh0gAAAUQAAAAgAAKgAABBgQAAAYAEAACAAAE=</HashCode>
+      <FileName>Composer\ComposerUI\ConceptCreationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.DetailEditingCard" Collapsed="true">
+    <Position X="12.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAQCAKQAGQAAAggAAAQAAAEAAAEAAI=</HashCode>
+      <FileName>Composer\ComposerUI\DetailEditingCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.MarkerAssignmentCommand" Collapsed="true">
+    <Position X="53" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAgAAAAAQRAEgAAAAAAAABAAQAAAAAECAAACAA=</HashCode>
+      <FileName>Composer\ComposerUI\MarkerAssignmentCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.RelationshipCreationCommand" Collapsed="true">
+    <Position X="53" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAAgAEkAAQQAAAACIAABAEBEAQAAAAAHAAAACDA=</HashCode>
+      <FileName>Composer\ComposerUI\RelationshipCreationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.ShortcutCreationCommand" Collapsed="true">
+    <Position X="58.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAgAAAAAQQCAAAAAAAAAAAAAQAAACCEAAAAAAA=</HashCode>
+      <FileName>Composer\ComposerUI\ShortcutCreationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.ViewComplementManipulationAdorner" Collapsed="true">
+    <Position X="8.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EChAEggAQUgAAQAAABpAAIQIAAQEAghAgAgQgBKBAAE=</HashCode>
+      <FileName>Composer\ComposerUI\ViewComplementManipulationAdorner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.ViewConnectorManipulationAdorner" Collapsed="true">
+    <Position X="11" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgCCQEgAIABCIBpCAIQAAQAIAAAAIAoCADAAAAE=</HashCode>
+      <FileName>Composer\ComposerUI\ViewConnectorManipulationAdorner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.ViewManipulationAdorner" Collapsed="true">
+    <Position X="11" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAICCkIAEUgABBwEABwQIC8ABEAAgAAIQZAABAREIA=</HashCode>
+      <FileName>Composer\ComposerUI\ViewManipulationAdorner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.ViewManipulationManager" Collapsed="true">
+    <Position X="47.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMECIACAMEAACIICAAAAAkAABBAREAAAggiABGAAIg=</HashCode>
+      <FileName>Composer\ComposerUI\ViewManipulationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.ViewSymbolManipulationAdorner" Collapsed="true">
+    <Position X="13.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAhAEggEUckhUQIwAJrAAMQoBCQEAipAoAgQILKBAAE=</HashCode>
+      <FileName>Composer\ComposerUI\ViewSymbolManipulationAdorner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.DetailAttachmentEditor" Collapsed="true">
+    <Position X="51.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAggAAgBAAAAgIAAAAAQIAAAaAAAAACACAAQAQ=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\DetailAttachmentEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.DetailInternalPropertyEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAACAAAACAACAAUAAAAA=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\DetailInternalPropertyEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.DetailLinkEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACCCQAAACAAAAEFACQCAAAAAQAAAAEgAQAA=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\DetailLinkEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.DetailsEditorMaintainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUgCAABAEQBAUAAAACBAQLAAAAAAAkQAApQAAgAIAA=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\DetailsEditorMaintainer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.DetailTableEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABJAAIAAAAIAAAAIAIAACAAAAAAAACAAIAAEIAAAA=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\DetailTableEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.FindAndReplaceDialog" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAAAAAAAAAgABAAAABBAAAIAAAAAChAAEAAAIA=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\FindAndReplaceDialog.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.LocalDetailsEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAADBABAAAAAAAAABAAAAAAAASAAABAAAQAAE=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\LocalDetailsEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.MarkingsEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIEAABABVAAAAAAAACAABAAAAAgAEAAADAIAAAEAA=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\MarkingsEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.RecordFieldExpositor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>eCGQAgiEEQYRRAQMgIQAAECCECAAEAACQAACABBKEEI=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\RecordFieldExpositor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.SingleTableRecordEditor" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\SingleTableRecordEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ComposerUI.Widgets.SingleTableRecordEditor&lt;TEntity, TItem&gt;" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAABAAQgAEAAAAAAAAAAAAAIAAAACAABAE=</HashCode>
+      <FileName>Composer\ComposerUI\Widgets\SingleTableRecordEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.CompositionEngine" Collapsed="true">
+    <Position X="63.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UVTXDKgSuiGP0XQVXUODMdIDnia8DGnR8DRIaQHN9zM=</HashCode>
+      <FileName>Composer\CompositionEngine.ContextMenuOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.CompositionsManager" Collapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKIxyoBiBFbwAhNB2u2IJJYB0gJkw8Qlh6IIgEQEAGk=</HashCode>
+      <FileName>Composer\CompositionsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.ModelFixes" Collapsed="true">
+    <Position X="60" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQAIAAAAABAAAoAAAAEQAAAABAEAQAAgAAABACCA=</HashCode>
+      <FileName>Composer\ModelFixes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Generation.FileGenerator" Collapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAQACAAACAAAAAABAAAAAAAggAABgAAAAEAAABA=</HashCode>
+      <FileName>Composer\Generation\FileGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Generation.GenerationManager" Collapsed="true">
+    <Position X="51.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAAQAAAAAAAAEEIAhAAAAAAAAAgAAAAACA=</HashCode>
+      <FileName>Composer\Generation\GenerationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Generation.GenerationResult" Collapsed="true">
+    <Position X="53" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Composer\Generation\GenerationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Generation.TemplateFilters" Collapsed="true">
+    <Position X="53" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IMAAAAAABAAEAABAAAAggIgAAAAFAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Composer\Generation\TemplateFilters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Generation.Widgets.FileGenerationPreviewer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composer\Generation\Widgets\FileGenerationPreviewer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Generation.Widgets.GeneratorSelectionEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABAAAAAIAABABAADAAAAAAgAAAAAQAAAAAAA=</HashCode>
+      <FileName>Composer\Generation\Widgets\GeneratorSelectionEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Reporting.ReportHtmlGenerator" Collapsed="true">
+    <Position X="58.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ybEKBoCAAYaEJA0UGEARQhAwgoBFAwAAkgoQBEoAI0c=</HashCode>
+      <FileName>Composer\Reporting\ReportHtmlGenerator.Content.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Reporting.ReportHtmlPage" Collapsed="true">
+    <Position X="60" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAABAAAAAEAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composer\Reporting\ReportHtmlPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Reporting.ReportingManager" Collapsed="true">
+    <Position X="61.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAQAAAAAAAAAQAAYAAAAAAAAAAAAAABAg=</HashCode>
+      <FileName>Composer\Reporting\ReportingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Reporting.ReportStandardGenerator" Collapsed="true">
+    <Position X="63.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wKEQBgCIADIQIAQAMEBRQghQAABFAgYA8ggAJEgAAUY=</HashCode>
+      <FileName>Composer\Reporting\ReportStandardGenerator.Content.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Reporting.ReportStandardPagesMaker" Collapsed="true">
+    <Position X="47.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACACAADAAAAAAAAAMAAAAAAABAAAAAAAgAABQAgAI=</HashCode>
+      <FileName>Composer\Reporting\ReportStandardPagesMaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Reporting.Widgets.DisplayCardEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAEAAEgAAEAAgAAAAABAIAAACAQFAABAAAAg=</HashCode>
+      <FileName>Composer\Reporting\Widgets\DisplayCardEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Reporting.Widgets.DisplayListEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAEAAEgAAEAAgAAAAABAIAAACAQFAABAAAAg=</HashCode>
+      <FileName>Composer\Reporting\Widgets\DisplayListEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Composer.Reporting.Widgets.ReportConfigurationEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAASABAAAIAAAAAAAAEQAAAAAA=</HashCode>
+      <FileName>Composer\Reporting\Widgets\ReportConfigurationEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorMaintenance.DomainMaintainer" Collapsed="true">
+    <Position X="51.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A8IBAAAFCgEAOQKgYQABiANAIAIAAgAChCCAI0IQYMA=</HashCode>
+      <FileName>Definitor\DefinitorMaintenance\DomainMaintainer.ConceptDefClusters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorMaintenance.TableDefinitionMaintainer" Collapsed="true">
+    <Position X="61.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACEAACAAAA=</HashCode>
+      <FileName>Definitor\DefinitorMaintenance\TableDefinitionMaintainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.MasterDrawer" Collapsed="true">
+    <Position X="58.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABKARCMAKAAACAAABIQsDAACAAADABKBAoQAgAEAQCA=</HashCode>
+      <FileName>Definitor\DefinitorUI\MasterDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.PathDrawer" Collapsed="true">
+    <Position X="61.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\PathDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.PlugDrawer" Collapsed="true">
+    <Position X="63.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAkkAChgAghAEAICAAoAQAACAIAAAAQAAAgAEADIAAg=</HashCode>
+      <FileName>Definitor\DefinitorUI\PlugDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.SymbolDrawer" Collapsed="true">
+    <Position X="60" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAQAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\SymbolDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.DetailBaseCard" Collapsed="true">
+    <Position X="11.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAAAMAAIAUAAAYASQAoIgEkSBKQAAgAAAEAEI=</HashCode>
+      <FileName>Definitor\DetailBaseCard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.DetailDefinitionCard" Collapsed="true">
+    <Position X="10.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DetailDefinitionCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.ArrangeTabForConceptDef" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAABBAAAQAAAAAAABAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\ArrangeTabForConceptDef.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.ArrangeTabForRelationshipDef" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAABBAAAAAAAAAIABAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\ArrangeTabForRelationshipDef.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.DetailsDefinitorMaintainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgCAABAAQFAMAAAACBAQJAAAAAAAAQAAJQAAgAIAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\DetailsDefinitorMaintainer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.DomainTemplatingSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAhBAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\DomainTemplatingSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.GlobalDetailsDefinitor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAQAABBAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\GlobalDetailsDefinitor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.LinkRoleDefSpecSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEQAAABBKAAAAgAAAAAAIgAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\LinkRoleDefSpecSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.TableDetailDesignatorStructSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEMAIABBAAgAAAAAgAAAACAAAAAAAQAggAEMAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\TableDetailDesignatorStructSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.TableStructureSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEIAAABBAAAAIAEAAGAAABAAAAAEAAAABAAQEgAE=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\TableStructureSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.TemplateEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEgAAABBAAQAAIAAACAQAAAAAAAAEAAQCAAAQAIA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\TemplateEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.TemplateTester" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAgEAAAAAAABCAFAAAAAAAhAIAAAAkAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\TemplateTester.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.TextFormatsMaintainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAgAAAAAAAAgAACAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\TextFormatsMaintainer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.TextFormatEditRegister" Collapsed="true">
+    <Position X="56.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\TextFormatsMaintainer.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.VisualConnectorsFormatSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABBAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\VisualConnectorFormatSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.VisualElementFormatSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\VisualElementFormatSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.VisualElementPreviewer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAgQAAQEEIIAIEAAQDSiAAAAAgAQAABAACAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\VisualElementPreviewer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DefinitorUI.Widgets.VisualSymbolFormatSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABBAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Definitor\DefinitorUI\Widgets\VisualSymbolFormatSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DomainServices" Collapsed="true">
+    <Position X="54.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAEAABAGQEUAAQplACIEIABAyAkDCIRCEAAkMQAA=</HashCode>
+      <FileName>Definitor\DomainServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Definitor.DomainsManager" Collapsed="true">
+    <Position X="56.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAgAAIAAAAAAAAAAAAAAAhIAAAA=</HashCode>
+      <FileName>Definitor\DomainsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.Configurations.DisplayCard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCBYiGVAQAgAYIADnAQiCMAgQAEEEAQEAAAQYAQAAI=</HashCode>
+      <FileName>MetaModel\Configurations\DisplayCard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.Configurations.DisplayList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCBQiGVAQAAAIAADBAQiCIAgAAEAEAAEAAAQYAAAAI=</HashCode>
+      <FileName>MetaModel\Configurations\DisplayList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.Configurations.ExternalLanguageDeclaration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAgAAAAAQAABBAAAAAAQAAAAAABEAAAAIAAAAg=</HashCode>
+      <FileName>MetaModel\Configurations\ExternalLanguageDeclaration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.Configurations.FileGenerationConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiCBQhBECQAACYAADBAABAIIgUBAkSACkAgAAIIIAAA=</HashCode>
+      <FileName>MetaModel\Configurations\FileGenerationConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.Configurations.IdeaSelection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAgAEIAAAAAEQAAAhAAAQAgAAQBABAgAAAA=</HashCode>
+      <FileName>MetaModel\Configurations\IdeaSelection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.Configurations.ReportConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qT+XRgBvz3tHtMve7HLxrPd0jTbE5qwAuQuPj+8wpsw=</HashCode>
+      <FileName>MetaModel\Configurations\ReportConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.Configurations.TextTemplate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCBwgEACQAAAIAADBAAAAAAgAAAUAAAEAAACIAAAAA=</HashCode>
+      <FileName>MetaModel\Configurations\TextTemplate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.Domain" Collapsed="true">
+    <Position X="43" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAinSiQDlQwlMUs2VBcGGgCYACghFkEAGahyhfmdehc=</HashCode>
+      <FileName>MetaModel\Domain.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.MarkerDefinition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQCBQAQAAEAAABBAgAAAAAAAAAAAAEBEgQIAAAAA=</HashCode>
+      <FileName>MetaModel\MarkerDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.MetaCategory&lt;TMetaDefinitor&gt;" Collapsed="true">
+    <Position X="29.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAABBAAAAAAAAAAAAAAEAAAAIAAAAA=</HashCode>
+      <FileName>MetaModel\MetaCategory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.MetaDefinition">
+    <Position X="24" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAgAAAAAQAABBAAAAAAQAAAAAABEAAAAIAAAAg=</HashCode>
+      <FileName>MetaModel\MetaDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.AttachmentDetailDesignator" Collapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYAAABAAAAAAABDAAACIAAAAAEABIEAUAAIAAAAA=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\AttachmentDetailDesignator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.ConceptDefinition" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAQAAAKABAABTABRAABAAQgCAAIAAIEBAggIAAAAg=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\ConceptDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.DetailDesignator" Collapsed="true">
+    <Position X="36.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQACBACAAAAAABBAAACIAAAgAkQRJEEUAAKAABAA=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\DetailDesignator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.IdeaDefinition" Collapsed="true">
+    <Position X="42" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAkgYRAAB0QEDYACJZIPLIFSGCghBgaoMAEAYJgACEA=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\IdeaDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.LinkDetailDesignator" Collapsed="true">
+    <Position X="38.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAAgAAABDAAACIAAABAEABJEAUAAIAAAAA=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\LinkDetailDesignator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.LinkRoleDefinition" Collapsed="true">
+    <Position X="45.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAICQAAAIAAAAAAABpQQAAAACCgIAAAAFAAACJAgAAA=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\LinkRoleDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.RelationshipDefinition" Collapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgSUAAQIBKIARBBRAAACAQAiAQTAAoEAAAAIFgoEA=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\RelationshipDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.TableDetailDesignator" Collapsed="true">
+    <Position X="34" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJQQAAAAQgCAAABBEAACIQAIQAEARIFIUAIICAABA=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\TableDetailDesignator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.BasicDataType" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAAgAAAACAAAAAAAAEAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\BasicDataType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.ChoiceType" Collapsed="true">
+    <Position X="4.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAgCAAACAAAAAAAAAAAACAIAgAAAAAAEABAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\ChoiceType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.DataType" Collapsed="true">
+    <Position X="16" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACBgAgAACAJCAEgABAAEABAAQAQIAgBYECEAECAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\DataType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.DateTimeType" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAiAAAAAAAAAAAAAAAAAAAAgAAAAAAEAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\DateTimeType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.FieldDefinition" Collapsed="true">
+    <Position X="31.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIBgQlJgABCIiAgABDSgBgAgQAoEkAAIEAGgAKEAYgA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\FieldDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.FileDataType" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAIAAAAAEEBIQAAAAAAAAAAEAAEQAAIAAIAAMAFAY=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\FileDataType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.IdeaLinkType" Collapsed="true">
+    <Position X="20.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAgAAAAAAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\IdeaLinkType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.InternalLinkType" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\InternalLinkType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.LinkDataType" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAgAAAAAAAQAAAEAAAAAAkAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\LinkDataType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.NumberType" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAACAAAAAAAABAAAAAAAAAEAgAAAAAAEAEAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\NumberType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.PictureType" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\PictureType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.ResourceLinkType" Collapsed="true">
+    <Position X="25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAAAAAAAAAAAAgAAAABAAAAAQAAAAAQAECAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\ResourceLinkType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.TableDefinition" Collapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUYAoAAABAAQAFBAAgEAAgAkAkECAEACAAIAAAAE=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\TableDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.TableRecordLinkType" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\TableRecordLinkType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.TableType" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\TableType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.InformationMetaModel.TextType" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACAAAAAAAAAAAAAAAAAAAAgAAAAAAEAAAA=</HashCode>
+      <FileName>MetaModel\InformationMetaModel\TextType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.AttachmentAppearance" Collapsed="true">
+    <Position X="0.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAABBAAAAAAAAAAAAAAEAAAAIAAABA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\AttachmentAppearance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.DetailAppearance" Collapsed="true">
+    <Position X="3" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCFQgAgAQAAAIgADBAQAAUIgACAAAAAEAAAAIAABBA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\DetailAppearance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.LinkAppearance" Collapsed="true">
+    <Position X="3" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAABBAAAAAAAAAAAAAAEAAAAIAAABA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\LinkAppearance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.Plugs" Collapsed="true">
+    <Position X="47.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAIYAHRAEAAAAsQEIABigAAAAAgiAEAABo=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\Plugs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.Shapes" Collapsed="true">
+    <Position X="56.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMDUAoACCMBEAgbNPAboAgjwAIgtEEUKAYlFIQuADAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\Shapes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.TableAppearance" Collapsed="true">
+    <Position X="5.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEQgAAAARgAAKIBBACAAAICAAQAAIIEEAAAIAAABA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\TableAppearance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.VisualConnectorsFormat" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAxOQgQAAAGAAAAAhDBwABIAAAGAMQAAEBwAAIAAAAI=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\VisualConnectorsFormat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.VisualElementFormat" Collapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gjKhUwgEIQAAIoACLFAECIICwCABAABIlmAABYCAEBA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\VisualElementFormat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.VisualSymbolFormat" Collapsed="true">
+    <Position X="17.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MOdhw54wWFcckSNBDZxSgJMwqftMddBXHVDzaqG4JQk=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\VisualSymbolFormat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.Composition" Collapsed="true">
+    <Position X="7.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAwhBSACiABUAEBh4CAAISAGAIEAIBHgAAIIE0EAA=</HashCode>
+      <FileName>Model\Composition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.GraphModel.Concept" Collapsed="true">
+    <Position X="7.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAECAAAAAAAABBAAAAAAAAAAAABEEAAEAYACAAA=</HashCode>
+      <FileName>Model\GraphModel\Concept.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.GraphModel.Idea" Collapsed="true">
+    <Position X="6.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EWkCQDBCR+EdGQC8zDAXbVqABGqxIiVMECUoBZkhKEc=</HashCode>
+      <FileName>Model\GraphModel\Idea.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.GraphModel.MarkerAssignment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCCBQgAAAUAgAIAEHBAAgAoAgAAAAAAAGAAAAYAAAAA=</HashCode>
+      <FileName>Model\GraphModel\MarkerAssignment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.GraphModel.Relationship" Collapsed="true">
+    <Position X="5.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkUQBAAAAgAAAEBhBIAAAAAAIEBAABGAAAAYAgEEE=</HashCode>
+      <FileName>Model\GraphModel\Relationship.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.GraphModel.RoleBasedLink" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgQgAQAEAAAQAEFBAEBAAAAAgBAAAAuACAAIAAAAA=</HashCode>
+      <FileName>Model\GraphModel\RoleBasedLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.InformationModel.Attachment" Collapsed="true">
+    <Position X="8.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQgAAAgBABAQEBBEAgAABAIAAAgAAUIEAAJAAIAA=</HashCode>
+      <FileName>Model\InformationModel\Attachment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.InformationModel.ContainedDetail" Collapsed="true">
+    <Position X="12" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCDQgAAAQBAAIAADBAAgAAAgIQAAgAQEIAAAIAkAAA=</HashCode>
+      <FileName>Model\InformationModel\ContainedDetail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.InformationModel.InternalLink" Collapsed="true">
+    <Position X="11" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCQgAAAAAAAAAEBBAAgCAAAIAAAgAAUABAAJAAKAA=</HashCode>
+      <FileName>Model\InformationModel\InternalLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.InformationModel.Link" Collapsed="true">
+    <Position X="12" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAABAAAAABBAAACAAAAAAAAAAEABAAIAAAAA=</HashCode>
+      <FileName>Model\InformationModel\Link.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.InformationModel.ResourceLink" Collapsed="true">
+    <Position X="13.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAEBBAAgCAAAIAAAwAAUABAApAAIAA=</HashCode>
+      <FileName>Model\InformationModel\ResourceLink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.InformationModel.Table" Collapsed="true">
+    <Position X="15.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IGKAYkAAABBFiBQUDBAIhAQAAKQAAiRAWAQAAJjYIQA=</HashCode>
+      <FileName>Model\InformationModel\Table.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.InformationModel.TableRecord" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SACAQgAgsAAAEIAEHFIKBIAgjAAAQIAAsAkgWMABAAA=</HashCode>
+      <FileName>Model\InformationModel\TableRecord.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.ConceptVisualRepresentation" Collapsed="true">
+    <Position X="2.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAQgAAAAAAAAAMBBAAABAASAAAAAAAEAAAAIAAAAA=</HashCode>
+      <FileName>Model\VisualModel\ConceptVisualRepresentation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.RelationshipVisualRepresentation" Collapsed="true">
+    <Position X="0.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEQgQAAAAAIAAEBBAAAAAASAAAAEAAEQAQAIAAAAA=</HashCode>
+      <FileName>Model\VisualModel\RelationshipVisualRepresentation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.View" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ambqcYVk0Pmwt1nbJzBvQCGydqsHN1o//aRTx9rIFSw=</HashCode>
+      <FileName>Model\VisualModel\View.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.ViewChild" Collapsed="true">
+    <Position X="63.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAhAQEAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\VisualModel\ViewChild.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.ViewPresenter" Collapsed="true">
+    <Position X="49.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAUAABIAAAAAAAAAAAQAIAQAEAQAAABAgARAAhAAAA=</HashCode>
+      <FileName>Model\VisualModel\ViewPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.VisualComplement" Collapsed="true">
+    <Position X="0.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IeATUiCHkiJAF0AGFBrPqiyKVDA4xuAfXhRMGI8AAZw=</HashCode>
+      <FileName>Model\VisualModel\VisualComplement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.VisualConnector" Collapsed="true">
+    <Position X="3" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BiwEUiADAAGss0AEBBuDAAiApRIJEEUUEAEICISAAAQ=</HashCode>
+      <FileName>Model\VisualModel\VisualConnector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.VisualElement" Collapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAACAAAAEgAABBgAAAGAAAAAQEAAFAQAAIAAIAQ=</HashCode>
+      <FileName>Model\VisualModel\VisualElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.VisualInert" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEUiAAAAAAEkAABBADAAgAABAIQEAAEAQACIQAAAA=</HashCode>
+      <FileName>Model\VisualModel\VisualInert.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.VisualObject" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQUCAAAAAoEkAABDIjgAgAABgIwEAAFAYACMQAAAQ=</HashCode>
+      <FileName>Model\VisualModel\VisualObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.VisualRepresentation" Collapsed="true">
+    <Position X="1.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAkQggAADCQMQgEBBEAAAogSADgQBEAEBwAAIhAAAg=</HashCode>
+      <FileName>Model\VisualModel\VisualRepresentation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.VisualShape" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAABBAAAAAAAAAAAAAAEAAAAIAAAAA=</HashCode>
+      <FileName>Model\VisualModel\VisualShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Model.VisualModel.VisualSymbol" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OWBQUCOHUKOqPlrmdhODdkyxNFDJnlxtNBMCuY2QGE0=</HashCode>
+      <FileName>Model\VisualModel\VisualSymbol.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Properties.Resources" Collapsed="true">
+    <Position X="49.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAACIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.ThinkComposer.Properties.Settings" Collapsed="true">
+    <Position X="54.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThinkComposer.Properties.Settings" Collapsed="true">
+    <Position X="53" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Instrumind.ThinkComposer.MetaModel.IClusterableDef" Collapsed="true">
+    <Position X="47.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MetaModel\IClusterableDef.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.ThinkComposer.MetaModel.IDefined" Collapsed="true">
+    <Position X="49.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MetaModel\IDefined.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Instrumind.ThinkComposer.Composer.ComposerUI.EComplementManipulationAction" Collapsed="true">
+    <Position X="51.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAACAAAAAAEAAAA=</HashCode>
+      <FileName>Composer\ComposerUI\EComplementManipulationAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.Composer.ComposerUI.EConnectorManipulationAction" Collapsed="true">
+    <Position X="54.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABAAAAAAAAAAAABAAAABAAFAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Composer\ComposerUI\EConnectorManipulationAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.Composer.ComposerUI.EManipulationDirection" Collapsed="true">
+    <Position X="58.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAIAAAAABAAAAAQAAAAAAAIAAAACACAAAAAAEA=</HashCode>
+      <FileName>Composer\ComposerUI\EManipulationDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.Composer.ComposerUI.ESymbolManipulationAction" Collapsed="true">
+    <Position X="49.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAIAAAAICAAQAAAAAAAAAWAAAAAACAAFAEAg=</HashCode>
+      <FileName>Composer\ComposerUI\ESymbolManipulationAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.EAlterability" Collapsed="true">
+    <Position X="47.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MetaModel\EAlterability.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.GraphMetaModel.ERoleType" Collapsed="true">
+    <Position X="47.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>MetaModel\GraphMetaModel\ERoleType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EAutoPositioningMode" Collapsed="true">
+    <Position X="49.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EAutoPositioningMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EHorizontalPlacement" Collapsed="true">
+    <Position X="56.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAIAAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EHorizontalPlacement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EPathCorner" Collapsed="true">
+    <Position X="60" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EPathCorner.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EPathStyle" Collapsed="true">
+    <Position X="61.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAACQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EPathStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EPlacementOnBorderHorizontal" Collapsed="true">
+    <Position X="63.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACADgAAgAACBAAgAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EPlacementOnBorderHorizontal.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.ESymbolPart" Collapsed="true">
+    <Position X="51.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\ESymbolPart.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.ETableLayoutStyle" Collapsed="true">
+    <Position X="53" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\ETableLayoutStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.ETextPurpose" Collapsed="true">
+    <Position X="54.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAQAAAAAAEAARAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\ETextPurpose.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EVecinityQuadrant" Collapsed="true">
+    <Position X="56.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAIAAABAAAAAAAAAAAAAAAAAAAAAGACAAAAIAAI=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EVecinityQuadrant.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EVerticalPlacement" Collapsed="true">
+    <Position X="58.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EVerticalPlacement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EVisualDispositionBidimensional" Collapsed="true">
+    <Position X="60" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAACACAAAAEAAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EVisualDispositionBidimensional.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.MetaModel.VisualMetaModel.EVisualDispositionMonodimensional" Collapsed="true">
+    <Position X="61.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEQAA=</HashCode>
+      <FileName>MetaModel\VisualMetaModel\EVisualDispositionMonodimensional.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.Model.GraphModel.EConceptType" Collapsed="true">
+    <Position X="53" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\GraphModel\EConceptType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.Model.VisualModel.EVisualLevel" Collapsed="true">
+    <Position X="63.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAUAAAAAAgAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\VisualModel\EVisualLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.ThinkComposer.Model.VisualModel.EVisualRepresentationPart" Collapsed="true">
+    <Position X="47.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAABABAAAAAAAAAAA=</HashCode>
+      <FileName>Model\VisualModel\EVisualRepresentationPart.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

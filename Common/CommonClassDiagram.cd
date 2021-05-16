@@ -1,0 +1,1513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Instrumind.Common.AppExec" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASE1yHN3jLGgUeJJiBkAA1AQEACQMUAoTEgDAUFFEA=</HashCode>
+      <FileName>AppExec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Assignment&lt;TValue&gt;" Collapsed="true">
+    <Position X="0.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAAEAAgAAAAAAA=</HashCode>
+      <FileName>Assignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.BusinessAnomaly" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessAnomaly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.BytesHandling" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEARCBABACIAAgwIGhBAECACThIAABAhAEIAAgAQA=</HashCode>
+      <FileName>BytesHandling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Capsule" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Capsule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Capsule&lt;T0&gt;" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Capsule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Capsule&lt;T0, T1&gt;" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Capsule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Capsule&lt;T0, T1, T2&gt;" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Capsule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Capsule&lt;T0, T1, T2, T3&gt;" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Capsule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.CentralizedTextWriter" Collapsed="true">
+    <Position X="14.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAIAAAAAAAAgAAAAAAAAAEAAAEAAAA=</HashCode>
+      <FileName>CentralizedTextWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.ClassificationCard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCBQiQBAQAAAIAADBAAAAAAgAAAAAAAEAAAAIAAAAA=</HashCode>
+      <FileName>ClassificationCard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Company" Collapsed="true">
+    <Position X="31" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAQAAAAgAAAAAAAAAAAACgAAAAA=</HashCode>
+      <FileName>Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.ConstrainedArray&lt;TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAEAAABAAAAAAAAQAAAAAAAAIACAAAABAAAA=</HashCode>
+      <FileName>ConstrainedArray.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.ConstrainedStack&lt;TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAEABAAAAAAAAQAAACAAAAAAgIAAABACAI=</HashCode>
+      <FileName>ConstrainedStack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.ControlledAnomaly" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlledAnomaly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.DataWagon" Collapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAMEAAAAAAQAAIAAAAAAAAAgQAAAAAA=</HashCode>
+      <FileName>DataWagon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EditableCollection" Collapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIIAIACEAEAAAACAAUAIAAQIAAAEGgBADEAAAAh0AEA=</HashCode>
+      <FileName>EditableCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.EditableDictionary" Collapsed="true">
+    <Position X="31" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAACQAAAAAAAAAAAAIAAAAACAAAACAAAAAAA=</HashCode>
+      <FileName>EditableDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EditableDictionary&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="15.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCIAQAAAgAAEARAUCQAAhAQIgAAIAgAACAAgAAhUIAA=</HashCode>
+      <FileName>EditableDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.EditableList" Collapsed="true">
+    <Position X="32.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCgAAAAAAQAAQAAAAAAAAAIAAAAAAAAAACAAIAAAA=</HashCode>
+      <FileName>EditableList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EditableList&lt;TItem&gt;" Collapsed="true">
+    <Position X="18" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AmIAQFAAiIAEABAVCQAAhCQQwAUIAwAACAAEAohUIAI=</HashCode>
+      <FileName>EditableList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.ExtendedEnumerable&lt;TSourceItem, TResultItem&gt;" Collapsed="true">
+    <Position X="19.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAUCAZRBAACAAggEAAAABAAAEEAAAAAAAAAAA=</HashCode>
+      <FileName>ExtendedEnumerable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.ExtendedEnumerable&lt;TSourceItem, TResultItem, TContainerItem&gt;" Collapsed="true">
+    <Position X="19.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAACAAQAAAAACAIAAAAABAAAA=</HashCode>
+      <FileName>ExtendedEnumerable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.ExternalAnomaly" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExternalAnomaly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.FieldNameAttribute" Collapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FieldNameAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.FormalElement" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAUgQABAAgAAQEBBQAEgQAEAAAAAATEBAgAIAIAAA=</HashCode>
+      <FileName>FormalElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.General" Collapsed="true">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>dO9aS5/yzW+nuu9utUn6FeDW8SGfA9sMmU6f05H++T8=</HashCode>
+      <FileName>General.Collections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.GenericConverter&lt;TStorageSource, TExpositionTarget&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAABAAAQAAAAAAAA=</HashCode>
+      <FileName>GenericConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.IdentificationController" Collapsed="true">
+    <Position X="27.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACAAAAAAAAAACAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>IdentificationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.InternalAnomaly" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InternalAnomaly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Licensing" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAIBAQACAAAAAABUQACkAAgAAAAAAAAABACAQ=</HashCode>
+      <FileName>Licensing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.MAssignment" Collapsed="true">
+    <Position X="0.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>MAssignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.MOwnership" Collapsed="true">
+    <Position X="5.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAEAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>MOwnership.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.MultiDictionary&lt;TMainKey, TSubKey, TSubValue&gt;" Collapsed="true">
+    <Position X="29.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MultiDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.OperationResult" Collapsed="true">
+    <Position X="36.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.OperationResult&lt;TResult&gt;" Collapsed="true">
+    <Position X="38" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAACQAAAAAAAAAAIAAIAAAgAA=</HashCode>
+      <FileName>OperationResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Ownership" Collapsed="true">
+    <Position X="22.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ownership.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Ownership&lt;TGlobal, TLocal&gt;" Collapsed="true">
+    <Position X="5.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIIAAAAAMAAAAAACAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Ownership.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.ReadOnlyDictionary&lt;TKey, TValue&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCIAAAAAAAAEABAQCIAABAQAAAAAAAAAAAAgAABQIAA=</HashCode>
+      <FileName>ReadOnlyDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.SimpleElement" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCBUgQAAQAAAIQEDBAAAgQAkAAAAAABEBAgAIAIAAA=</HashCode>
+      <FileName>SimpleElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.SimpleList&lt;TData&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAAACAAABBAQiAAAAIQAAAAQCAAEAQIDKEBAAAA=</HashCode>
+      <FileName>SimpleList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.SimpleNode&lt;TData&gt;" Collapsed="true">
+    <Position X="34.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.SimpleSynthSerializer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAwAAAAAAQAAAIgIiACBAABgAABAgAgEAQBk=</HashCode>
+      <FileName>SimpleSynthTextSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.StandardBinarySerializer" Collapsed="true">
+    <Position X="38" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAkAAABAEAAAAAAIAAAYAgKlMABAAAZAgAAASCAA=</HashCode>
+      <FileName>StandardBinarySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.StoreBox" Collapsed="true">
+    <Position X="22.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgAAAAAAkAAAEAAAAAAAAAAAAABAACAAgQAAAAA=</HashCode>
+      <FileName>StoreBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.StoreBoxBase" Collapsed="true">
+    <Position X="17.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABgAAAAAABEAAAAACAAAA=</HashCode>
+      <FileName>StoreBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.StoreBox&lt;TValue&gt;" Collapsed="true">
+    <Position X="17.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAABAAAAAAgAYAEAIAAAAABgAAAAAAAEAAgCACQAAA=</HashCode>
+      <FileName>StoreBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.ThreadWorker&lt;TResult&gt;" Collapsed="true">
+    <Position X="39.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAASCEAAAAAAAAAAAhAAFAAAAAAAgAAACAAAAI=</HashCode>
+      <FileName>ThreadWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.UnifiedCollectionsView&lt;TItem, TCollection&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAgABAACAAggAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnifiedCollectionsView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.UniqueElement" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCBQgAAAQAAAIQEDBAAAAAAgQAAAAAAEAAACIAAAAA=</HashCode>
+      <FileName>UniqueElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.UsageAnomaly" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UsageAnomaly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.VersionCard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACyBQgACAQARMMAADBAAgAgCiAAEKAABMhBAAIAAAAA=</HashCode>
+      <FileName>VersionCard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.WarningAnomaly" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WarningAnomaly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.AssignmentVariation" Collapsed="true">
+    <Position X="0.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAQMAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityBase\AssignmentVariation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.AtomicVariation" Collapsed="true">
+    <Position X="1.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityBase\AtomicVariation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.CollectionVariation" Collapsed="true">
+    <Position X="3" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEACAAAAAAAAAAQAAAAAAAAAAAAAE=</HashCode>
+      <FileName>EntityBase\CollectionVariation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.CommandVariation" Collapsed="true">
+    <Position X="5.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAQEAAAAQAABAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>EntityBase\CommandVariation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.DocumentEngine" Collapsed="true">
+    <Position X="11.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBEFBYggAw0AEGEIBMZAgAIBgAAUBACEQQcEAAAABAA=</HashCode>
+      <FileName>EntityBase\DocumentEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.DocumentFileInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAABAAgAAQAAAAAAAQAAGAAAAAAAAAAAAlMAAA=</HashCode>
+      <FileName>EntityBase\DocumentFileInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.EntityEditEngine" Collapsed="true">
+    <Position X="11.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUIkBAAZACAABgAAABAyAAGHIAASAkAJIIQBCChIggI=</HashCode>
+      <FileName>EntityBase\EntityEditEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.FoundObjectHint" Collapsed="true">
+    <Position X="22.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEEAEAAgAAAAAGQAAAACAAAAAABQEAIAgAAAgAAA=</HashCode>
+      <FileName>EntityBase\FoundObjectHint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.MModelClassDefinitor" Collapsed="true">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAEAAQhhkAKABAAEQACgAAAAAAFAQEAIACAAA=</HashCode>
+      <FileName>EntityBase\MModelClassDefinitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.MModelCollectionDefinitor" Collapsed="true">
+    <Position X="16" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityBase\MModelCollectionDefinitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.MModelMemberDefinitor" Collapsed="true">
+    <Position X="17.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAQIAAAgApIAAAAIAAAAAAgQgAAAgAAAABCAAEAABA=</HashCode>
+      <FileName>EntityBase\MModelMemberDefinitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.MModelPropertyDefinitor" Collapsed="true">
+    <Position X="19.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAgAAAABAAAAAFAAAAQAEAEAAAAYAAAArAAgACAE=</HashCode>
+      <FileName>EntityBase\MModelPropertyDefinitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.ModelDefinition" Collapsed="true">
+    <Position X="16" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAQEAAAAAAQAACAAAAAAAAAAAAgIAAA=</HashCode>
+      <FileName>EntityBase\ModelDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.EntityBase.Variation" Collapsed="true">
+    <Position X="3" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityBase\Variation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.DictionaryController&lt;TModelClass, TKey, TItem&gt;" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\DictionaryController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.EntityInstanceController" Collapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\EntityInstanceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.EntityInstanceController&lt;TModelEntity&gt;" Collapsed="true">
+    <Position X="8.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAACACIAAgIAAAAQACEACQAAAAQIFAEABEAAEg=</HashCode>
+      <FileName>EntityDefinition\EntityInstanceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.ListController&lt;TModelClass, TItem&gt;" Collapsed="true">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\ListController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.MCollectionController" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\MCollectionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.MEntityInstanceController" Collapsed="true">
+    <Position X="8.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAACAAAQECKAUIICAgKSAACBAIAAAKbIAAAAhACAAg=</HashCode>
+      <FileName>EntityDefinition\MEntityInstanceController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.MMemberController" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAACAAAAgACiIoQAgCIAEAABCACgAEAhFQAIAAAIA=</HashCode>
+      <FileName>EntityDefinition\MMemberController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.ModelClassDefinitor&lt;TModelClass&gt;" Collapsed="true">
+    <Position X="12.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAQAACQABBAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\ModelClassDefinitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.ModelDictionaryDefinitor&lt;TModelClass, TKey, TValue&gt;" Collapsed="true">
+    <Position X="15" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAoABABBAIAAAAAkAAAAAAAAAAAACAEAAAA=</HashCode>
+      <FileName>EntityDefinition\ModelDictionaryDefinitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.ModelListDefinitor&lt;TModelClass, TItem&gt;" Collapsed="true">
+    <Position X="17.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAoABABBAIAAAAAkAAAAAAAAAAAACAEAAAA=</HashCode>
+      <FileName>EntityDefinition\ModelListDefinitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.ModelPropertyDefinitor&lt;TModelClass, TValue&gt;" Collapsed="true">
+    <Position X="19.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgIAABqABABBjIAAAAAkAAAAAAAQgAAoGA0EAAA=</HashCode>
+      <FileName>EntityDefinition\ModelPropertyDefinitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.MPropertyController" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\MPropertyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.EntityDefinition.PropertyController&lt;TModelClass, TValue&gt;" Collapsed="true">
+    <Position X="17.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAIAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\PropertyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.BooleanToBrushConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\BooleanToBrushConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.BooleanToDoubleConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\BooleanToDoubleConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.BooleanToInverseConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\BooleanToInverseConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.BooleanToVisibilityHiddenConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\BooleanToVisibilityHiddenConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.ConsoleRollPublisher" Collapsed="true">
+    <Position X="14.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAgAAAAAAAAAAAAwQAAAAQAAAAAAQMAAABAAAA=</HashCode>
+      <FileName>Visualization\ConsoleRollPublisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Display" Collapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9mhtBKqpJUzvuAC8we7RHixCp9rttWJKLWP3enVLUdE=</HashCode>
+      <FileName>Visualization\Display.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.DocumentPaginatorWrapper" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAoAAAAAAAEABAAAAAiAQAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Visualization\DocumentPaginatorWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.DragDropAssistant" Collapsed="true">
+    <Position X="29.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAgACAIAGAAAAAAAACAAAQABBAAEAhAABgEAAg=</HashCode>
+      <FileName>Visualization\DragDropAssistant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.EmptyStringToNullConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\EmptyStringToNullConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.EnumToDescriptionConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\EnumToDescriptionConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.FormalPresentationElement" Collapsed="true">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAABBAAAAAAACAAAEAAEAAAEIAAAAA=</HashCode>
+      <FileName>Visualization\FormalPresentationElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.GenericCommand" Collapsed="true">
+    <Position X="11.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\GenericCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.ImageAssignment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAQAAgAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\ImageAssignment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.ItemTemplateSelector" Collapsed="true">
+    <Position X="22.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\ItemTemplateSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.ObjectNotNullToVisibilityConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\ObjectNotNullToVisibilityConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.PointingAssistant" Collapsed="true">
+    <Position X="32.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEgAAABBCAAAAAAACAAAAAAQgEAAAAIADAAAAAAABg=</HashCode>
+      <FileName>Visualization\PointingAssistant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.SimpleAdorner" Collapsed="true">
+    <Position X="31" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Visualization\SimpleAdorner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.SimplePresentationElement" Collapsed="true">
+    <Position X="1.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAABBAAAAAAACAAAEAAEAAAEIAAAAA=</HashCode>
+      <FileName>Visualization\SimplePresentationElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.StringExistentToBoolConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\StringExistentToBoolConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.StringToVisibilityConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\StringToVisibilityConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.TextFormat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKCXSkAAAcQAAYAMDTEAAgAIgAAwgAgIEACQQIAOAgA=</HashCode>
+      <FileName>Visualization\TextFormat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.WorkCommand" Collapsed="true">
+    <Position X="10.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAABACAQQAAEAQAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\WorkCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.WorkCommandExpositor" Collapsed="true">
+    <Position X="0.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQggAAABBAAIAQAAAAAAAAAAQAABiIE=</HashCode>
+      <FileName>Visualization\WorkCommandExpositor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.WorkCommandInteractive&lt;TParam&gt;" Collapsed="true">
+    <Position X="9.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAAAAQAAAAASAAAAAEAAAAAAAAEAgAAAAA=</HashCode>
+      <FileName>Visualization\WorkCommandInteractive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.WorkspaceManager" Collapsed="true">
+    <Position X="31" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAEAAAEAAAgAAAAAAAAQBAAARCAAAACAAAEAA=</HashCode>
+      <FileName>Visualization\WorkspaceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.WorkSphere" Collapsed="true">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAIAAEAEAAAAAAIAAAAABgBAAAAAAAAQAAQA=</HashCode>
+      <FileName>Visualization\WorkSphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.XamlFlowDocumentToHtmlConverter" Collapsed="true">
+    <Position X="32.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACEBAABMAAAAAABAAAAAAAAACAAAIAAAA=</HashCode>
+      <FileName>Visualization\XamlFlowDocumentToHtmlConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ApplicationErrorReporter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAQCAEAABAAACGAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\ApplicationErrorReporter.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.AutoCollapsePanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAEBQgAAEQYAAAAAYBEAgAEABAAAAAQBAFAAAA=</HashCode>
+      <FileName>Visualization\Widgets\AutoCollapsePanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.BasicWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAQgEAAABCBAABAAAAEAAAAAAFCAAAAAAI=</HashCode>
+      <FileName>Visualization\Widgets\BasicWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.BrushKindSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAAQAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\BrushKindSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.BrushSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEEAABAAAAQAAgAAAABAAADAAAgMEIAAAEAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\BrushSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.BrushTypeSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAASAAAAAAAAAAQAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\BrushTypeSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.CollectionEditingToolPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAoIEIAAAQAEEAggCBAIYAABBEBAACiMHJApQAAAA=</HashCode>
+      <FileName>Visualization\Widgets\CollectionEditingToolPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ColorSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAkCACEAAAAAAQAAAAkQAiAAAAAAAAAAAgAAAQAQBA=</HashCode>
+      <FileName>Visualization\Widgets\ColorSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ComboMaintainer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAABAAAMAAQAgAAAAAQBAAAFAAAAAAACBAIBAAgA=</HashCode>
+      <FileName>Visualization\Widgets\ComboMaintainer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.DialogItemsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEAAAAAAAAAQgEBAAACBAABAAACEAAAAAABAAEAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\DialogItemsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.DialogOptionsWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEACAAAAAAAQgEAAAACBAABAAAAEAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\DialogOptionsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.DocumentPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEQAAAAAAIAAAgAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\DocumentPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.EntitledPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICQAAQBEBAkEQEkACBAKREogEMBgABAQASCABAAIA=</HashCode>
+      <FileName>Visualization\Widgets\EntitledPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.EntityEditPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CARgFCwEAgQIAAAoAgAAIBiQAUCAoCAAIIAAAFAgAQQ=</HashCode>
+      <FileName>Visualization\Widgets\EntityEditPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.EntityPropertyExpositor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>PCGQAuyEGQYiZxYEgIQAAECCASCAAQBCdAICgJAYEAI=</HashCode>
+      <FileName>Visualization\Widgets\EntityPropertyExpositor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ExtendedDataGridTemplateColumn" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\ExtendedDataGridTemplateColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ExtendedEditCheckBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIAQAQAAAAAAAAAAAgEgAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\ExtendedEditCheckBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ExtendedEditComboBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAJUQAgAAAAQAIAJAAhChCAAABAAChAAAIAAIAA=</HashCode>
+      <FileName>Visualization\Widgets\ExtendedEditComboBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ExtendedEditText" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAgRAYEQSggAHABAgAQCAxAwAgAAFFIQJEwAAEgAAA=</HashCode>
+      <FileName>Visualization\Widgets\ExtendedEditText.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ExtensionPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAABAAQAIEAEAAgAAQAGAAgAA=</HashCode>
+      <FileName>Visualization\Widgets\ExtensionPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.FindAndReplacePanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQAgCCAEAAAAAAIBBAQAAAAAAAgRAAUCAAAA=</HashCode>
+      <FileName>Visualization\Widgets\FindAndReplacePanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.FlowDocumentViewer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAAAAAAAAAABAAAKAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\FlowDocumentViewer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.FormalElementGeneralSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\FormalElementGeneralSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ImagePicker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAUBgABAAAAAAIEAAAAAAAAEQAAIEIQAAAAY=</HashCode>
+      <FileName>Visualization\Widgets\ImagePicker.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ImagePickerSimple" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAAQBIIAAAAAAAIAEEBAAAAAAQABAAAAAACCA=</HashCode>
+      <FileName>Visualization\Widgets\ImagePickerSimple.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ImprovedImage" Collapsed="true">
+    <Position X="34.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\ImprovedImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ItemsGridControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAkCAAEBhKYAQwwJCGAAiAcAAAgAAoABQEAEAggCA=</HashCode>
+      <FileName>Visualization\Widgets\ItemsGridControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ItemsGridMaintainer" Collapsed="true">
+    <Position X="38" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAACCAAAAAAAAAAAAAAAIAQAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\ItemsGridMaintainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ItemsGridMaintainer&lt;TEntity, TItem&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCYAEADEABBAAAAEDAEAAAIAkAAAGUBIUBAAAAAQQAA=</HashCode>
+      <FileName>Visualization\Widgets\ItemsGridMaintainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.MaskEditDateTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABCKAQAQAAQUCACBUABxAoAgIQBFAAAMgggAAAFA=</HashCode>
+      <FileName>Visualization\Widgets\MaskEditDateTime.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.MaskEditNumber" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAIRA4EQKggBBgAIgPRCBhAwAgAANMBAIEgggGgEgA=</HashCode>
+      <FileName>Visualization\Widgets\MaskEditNumber.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.NavigationBar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\NavigationBar.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.NavigationButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\NavigationButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.OrientationSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAYBAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\OrientationSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.PaletteButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACDAACAIDCBAEggAAACBAJHAGAAAKAEkAQkQgCCAIEA=</HashCode>
+      <FileName>Visualization\Widgets\PaletteButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.PaletteButtonGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAkAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\PaletteButtonGroup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.PaletteDropButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAACAADAAAAggAAAABAIFAGAAAiIEEAgkAAAiAIEA=</HashCode>
+      <FileName>Visualization\Widgets\PaletteDropButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.PaletteDropColorizerButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAJCAACAAAAAwAAAABQQEAmAAACAEAAhACAACCIEA=</HashCode>
+      <FileName>Visualization\Widgets\PaletteDropColorizerButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.PaletteToggleButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAACAADAAAAggAAAABAIEAGAAACAEEAAAAACCAIEA=</HashCode>
+      <FileName>Visualization\Widgets\PaletteToggleButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.PrintPreviewer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAAIAAAAAAAFAAAKQAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\PrintPreviewer.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ProgressiveBackgroundExecutor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAgCEAAQAQAAIAAAABAAAAAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\ProgressiveBackgroundExecutor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ProgressiveThreadedExecutor&lt;TResult&gt;" Collapsed="true">
+    <Position X="38" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABAACEAAAAQAAIAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\ProgressiveThreadedExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.ProgressiveThreadedExecutorControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAgAAAABABAAAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\ProgressiveThreadedExecutorControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.RichTextBoxImproved" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIACFAgAAAAAAAgAAAABCAAgQAAAAAABAMAAgA=</HashCode>
+      <FileName>Visualization\Widgets\RichTextBoxImproved.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.RichTextEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAFgCgAJBAgAEAFgAAAABBQACAIQACAAQAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\RichTextEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.SelectionButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAACABAAAACgAIAAAABJEAEBAACAEEkAAEgCCAIAA=</HashCode>
+      <FileName>Visualization\Widgets\SelectionButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.SelectionListBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAIQIAIAIAAgRAACAAkAAAwAIAFAIAgAAAoQA=</HashCode>
+      <FileName>Visualization\Widgets\SelectionListBox.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.StateButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\StateButton.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.SyntaxTextEditor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAEAAAgBRAAwEAAAAAAIBBQASAAAAARBQgCEEAAAA=</HashCode>
+      <FileName>Visualization\Widgets\SyntaxTextEditor.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.TabbedEditPanel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgACCAAAAAAAAAEAAAAQAQAAEAAAAEAAAAAAAAAAACQ=</HashCode>
+      <FileName>Visualization\Widgets\TabbedEditPanel.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.TextAlignmentSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAQAAACEAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\TextAlignmentSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.TextFormatSampler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAABAAAAAAAAAAAAAAAgAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\TextFormatSampler.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.TextFormatSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASACAAAAAAAAAAQAAkAAAABQgACAAAAQIAFAAAAJAgA=</HashCode>
+      <FileName>Visualization\Widgets\TextFormatSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.TextStyleSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAwAAAAAAAgAAQAAAAAwAAQAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\TextStyleSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.TransparencySelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAQAAAAAAAgAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\TransparencySelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.TreeItemSelector" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBIIQQAAAACABQgAYAAhAwAgAABFIABAgBAEAAAA=</HashCode>
+      <FileName>Visualization\Widgets\TreeItemSelector.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Instrumind.Common.Visualization.Widgets.VersionCardSubform" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\VersionCardSubform.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Instrumind.Common.IFormalizedElement" Collapsed="true">
+    <Position X="6.75" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFormalizedElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.IIdentifiableElement" Collapsed="true">
+    <Position X="4.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>IIdentifiableElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.IIdentificationScope" Collapsed="true">
+    <Position X="3.5" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIdentificationScope.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.IIndicatesAlteration" Collapsed="true">
+    <Position X="32.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIndicatesAlteration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.IStorageLocation" Collapsed="true">
+    <Position X="38" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStorageLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.ITechSpecifier" Collapsed="true">
+    <Position X="39.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>ITechSpecifier.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.IUniqueElement" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>IUniqueElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.IVersionChanger" Collapsed="true">
+    <Position X="22.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>IVersionChanger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.IVersionUpdater" Collapsed="true">
+    <Position X="24" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVersionUpdater.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.EntityBase.ICopyable" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityBase\ICopyable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.EntityBase.IDynamicStore" Collapsed="true">
+    <Position X="25.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityBase\IDynamicStore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.EntityBase.IMModelClass" Collapsed="true">
+    <Position X="12.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>EntityBase\IMModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.EntityBase.IModelEntity" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>EntityBase\IModelEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.EntityDefinition.IEntityView" Collapsed="true">
+    <Position X="29.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACgAAAAAAAAAAAAAAAAAAQAAgAAAAIAAABAAAAA=</HashCode>
+      <FileName>EntityDefinition\IEntityView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.EntityDefinition.IEntityViewChild" Collapsed="true">
+    <Position X="31" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\IEntityViewChild.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.EntityDefinition.IModelClass&lt;TModelClass&gt;" Collapsed="true">
+    <Position X="15.25" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\IModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.IDocumentView" Collapsed="true">
+    <Position X="9.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAggAEgAAgABQACAAgoBAAgDAAAAAECAEAg=</HashCode>
+      <FileName>Visualization\IDocumentView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.IDocumentVisualizer" Collapsed="true">
+    <Position X="24" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAALAAACAAAAAAAIAAABAAIAAAA=</HashCode>
+      <FileName>Visualization\IDocumentVisualizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.IFormalizedRecognizableElement" Collapsed="true">
+    <Position X="6.25" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\IFormalizedRecognizableElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.IRecognizableComposite" Collapsed="true">
+    <Position X="3.5" Y="11.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAQAAAAAAAQIAAAABAgAAAAAAAAAAAAE=</HashCode>
+      <FileName>Visualization\IRecognizableComposite.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.IRecognizableElement" Collapsed="true">
+    <Position X="4.5" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\IRecognizableElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.ISelectable" Collapsed="true">
+    <Position X="9.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\ISelectable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.IShellProvider" Collapsed="true">
+    <Position X="34.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAACIAAAACAAAAAAAIAAAAAAAAAAAQEAA=</HashCode>
+      <FileName>Visualization\IShellProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.IShellVisualContent" Collapsed="true">
+    <Position X="36.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEQAAAAAAIAAAgAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Visualization\IShellVisualContent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.ISphereModel" Collapsed="true">
+    <Position X="6.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAgAAEAAAAYAAAAAAAAAEAAAAAAAAAEAEAA=</HashCode>
+      <FileName>Visualization\ISphereModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.Widgets.IAlternativeRecordEditor&lt;TEntity, TItem&gt;" Collapsed="true">
+    <Position X="22.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\IAlternativeRecordEditor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Instrumind.Common.Visualization.Widgets.IDynamicStoreDataGridEditor" Collapsed="true">
+    <Position X="27.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Visualization\Widgets\IDynamicStoreDataGridEditor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Instrumind.Common.EExecutionStatus" Collapsed="true">
+    <Position X="31" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAIAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAA=</HashCode>
+      <FileName>EExecutionStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.EExistenceStatus" Collapsed="true">
+    <Position X="32.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAABAAEAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>EExistenceStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.EMessageType" Collapsed="true">
+    <Position X="34.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAQAAAAAAABAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>EMessageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.EntityBase.ECloneOperationScope" Collapsed="true">
+    <Position X="22.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAgAAAAAAEAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>EntityBase\ECloneOperationScope.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.EntityBase.EEditOperationAction" Collapsed="true">
+    <Position X="27.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>EntityBase\EEditOperationAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.EntityBase.EEntityMembership" Collapsed="true">
+    <Position X="29.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAACAA=</HashCode>
+      <FileName>EntityBase\EEntityMembership.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.EntityDefinition.EPropertyKind" Collapsed="true">
+    <Position X="36.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQQAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityDefinition\EPropertyKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.Visualization.ECommandExpositorStyle" Collapsed="true">
+    <Position X="24" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAIAAA=</HashCode>
+      <FileName>Visualization\ECommandExpositorStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.Visualization.ECursorIndicator" Collapsed="true">
+    <Position X="25.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Visualization\ECursorIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.Visualization.EShellCommandCategory" Collapsed="true">
+    <Position X="38" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAACAAAAQAABAAA=</HashCode>
+      <FileName>Visualization\EShellCommandCategory.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.Visualization.EShellVisualContentType" Collapsed="true">
+    <Position X="39.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAgAAAAAAAAAAABAAAAAAAIAABAAAAQEAAAAAAA=</HashCode>
+      <FileName>Visualization\EShellVisualContentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Instrumind.Common.Visualization.ETargetIndicator" Collapsed="true">
+    <Position X="22.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Visualization\ETargetIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

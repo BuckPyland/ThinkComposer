@@ -463,7 +463,9 @@ namespace Instrumind.Common
       #region INotifyPropertyChanged Members
 
       [field: NonSerialized]
+#pragma warning disable CS0067 // The event is never used
       public event PropertyChangedEventHandler PropertyChanged;
+#pragma warning restore CS0067 // The event is never used
 
       #endregion
 
@@ -473,11 +475,10 @@ namespace Instrumind.Common
 
          if (this.VariatingInstance != null)
          {
-            if (this.VariatingInstance is FormalElement)
-               InstanceName = ((FormalElement)this.VariatingInstance).Name;
-            else
-                if (this.VariatingInstance is SimpleElement)
-               InstanceName = ((SimpleElement)this.VariatingInstance).Name;
+            if (this.VariatingInstance is FormalElement element)
+               InstanceName = element.Name;
+            else if (this.VariatingInstance is SimpleElement element1)
+               InstanceName = element1.Name;
             else
                InstanceName = "HC=" + this.VariatingInstance.GetHashCode().ToString();
          }

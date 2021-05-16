@@ -68,7 +68,7 @@ namespace Instrumind.Common
       public EditableDictionary(string Name, IModelEntity VariatingInstance, IDictionary<TKey, TValue> SourceDictionary, bool TreatModelClassValuesAsReferences = false)
            : base(Name, VariatingInstance, TreatModelClassValuesAsReferences)
       {
-         this.SourceDictionary = (SourceDictionary == null ? new Dictionary<TKey, TValue>() : SourceDictionary);
+         this.SourceDictionary = SourceDictionary ?? new Dictionary<TKey, TValue>();
       }
 
       /// <summary>
@@ -77,7 +77,7 @@ namespace Instrumind.Common
       public EditableDictionary(IModelEntity VariatingInstance, string Name, ref Dictionary<TKey, TValue> SourceDictionary, bool TreatModelClassValuesAsReferences = false)
           : base(Name, VariatingInstance, TreatModelClassValuesAsReferences)
       {
-         this.SourceDictionary = (SourceDictionary == null ? new Dictionary<TKey, TValue>() : SourceDictionary);
+         this.SourceDictionary = SourceDictionary ?? new Dictionary<TKey, TValue>();
       }
 
       /// <summary>
@@ -89,38 +89,51 @@ namespace Instrumind.Common
       //  and http://stackoverflow.com/questions/457134/strange-behaviour-of-net-binary-serialization-on-dictionarykey-value
       private void Initialize(StreamingContext context = default(StreamingContext))
       {
-         var LocalDictionary = this.SourceDictionary as Dictionary<TKey, TValue>;
-         if (LocalDictionary != null)
+         if (this.SourceDictionary is Dictionary<TKey, TValue> LocalDictionary)
             LocalDictionary.OnDeserialization(this);
       }
 
       public override object[] GetAlterParameters(char AlterCode, params object[] OriginalParameters)
       {
-         object[] Result = null;
+         object[] Result;
 
          switch (AlterCode)
          {
             case EditableDictionary.ALTCOD_ADD:
                Result = OriginalParameters;
+               
                break;
+
             case EditableDictionary.ALTCOD_CLEAR:
                Result = new object[] { };
+
                break;
+
             case EditableDictionary.ALTCOD_POPULATE:
                Result = new object[] { this.SourceDictionary.ToArray() };
+
                break;
+
             case EditableDictionary.ALTCOD_REMOVE:
                Result = OriginalParameters;
+
                break;
+
             case EditableDictionary.ALTCOD_KEYADD:
                Result = OriginalParameters;
+
                break;
+
             case EditableDictionary.ALTCOD_KEYREMOVE:
                Result = OriginalParameters;
+
                break;
+
             case EditableDictionary.ALTCOD_KEYSET:
                Result = new object[] { OriginalParameters[0], this.SourceDictionary[(TKey)OriginalParameters[0]] };    // Key, Previous-Value
+
                break;
+
             default:
                throw new UsageAnomaly("Unknown editable dictionary alteration code.", AlterCode);
          }
@@ -136,9 +149,7 @@ namespace Instrumind.Common
          EntityEditEngine.RegisterInverseCollectionChange(this.VariatingInstance, this, EditableDictionary.ALTCOD_KEYREMOVE, Key, Value);
          this.SourceDictionary.Add(Key, Value);
 
-         var NotifyHandler = this.CollectionChanged;
-         if (NotifyHandler != null)
-            NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, new KeyValuePair<TKey, TValue>(Key, Value)));
+         this.CollectionChanged?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, new KeyValuePair<TKey, TValue>(Key, Value)));
       }
 
       public bool ContainsKey(TKey key)
@@ -165,8 +176,7 @@ namespace Instrumind.Common
          {
             EntityEditEngine.RegisterInverseCollectionChange(this.VariatingInstance, this, EditableDictionary.ALTCOD_KEYADD, key, Value);
 
-            if (NotifyHandler != null)
-               NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, new KeyValuePair<TKey, TValue>(key, Value), Index));
+            NotifyHandler?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, new KeyValuePair<TKey, TValue>(key, Value), Index));
          }
 
          return WasRemoved;
@@ -205,16 +215,12 @@ namespace Instrumind.Common
 
                if (AlreadyExists)
                {
-                  var NotifyHandler = this.CollectionChanged;
-                  if (NotifyHandler != null)
-                     NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Replace, new KeyValuePair<TKey, TValue>(Key, value),
+                  this.CollectionChanged?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Replace, new KeyValuePair<TKey, TValue>(Key, value),
                                                                               new KeyValuePair<TKey, TValue>(Key, PreviousValue)));
                }
                else
                {
-                  var NotifyHandler = this.CollectionChanged;
-                  if (NotifyHandler != null)
-                     NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, new KeyValuePair<TKey, TValue>(Key, value)));
+                  this.CollectionChanged?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, new KeyValuePair<TKey, TValue>(Key, value)));
                }
 
             }
@@ -230,9 +236,7 @@ namespace Instrumind.Common
          EntityEditEngine.RegisterInverseCollectionChange(this.VariatingInstance, this, EditableDictionary.ALTCOD_REMOVE, item);
          this.SourceDictionary.Add(item);
 
-         var NotifyHandler = this.CollectionChanged;
-         if (NotifyHandler != null)
-            NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, item));
+         this.CollectionChanged?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, item));
       }
 
       public override void Clear()
@@ -240,9 +244,7 @@ namespace Instrumind.Common
          EntityEditEngine.RegisterInverseCollectionChange(this.VariatingInstance, this, EditableDictionary.ALTCOD_POPULATE, this.SourceDictionary.ToArray());
          this.SourceDictionary.Clear();
 
-         var NotifyHandler = this.CollectionChanged;
-         if (NotifyHandler != null)
-            NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
+         this.CollectionChanged?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
       }
 
       public void PopulateFrom(IEnumerable<KeyValuePair<TKey, TValue>> SourceDictionary = null)
@@ -253,9 +255,7 @@ namespace Instrumind.Common
          foreach (var Item in SourceDictionary)
             this.SourceDictionary.Add(Item);
 
-         var NotifyCollectionHandler = this.CollectionChanged;
-         if (NotifyCollectionHandler != null)
-            NotifyCollectionHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
+         this.CollectionChanged?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
       }
 
       public bool Contains(KeyValuePair<TKey, TValue> item)
@@ -294,8 +294,7 @@ namespace Instrumind.Common
          {
             EntityEditEngine.RegisterInverseCollectionChange(this.VariatingInstance, this, EditableDictionary.ALTCOD_ADD, item);
 
-            if (NotifyHandler != null)
-               NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, item, Index));
+            NotifyHandler?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, item, Index));
          }
 
          return WasRemoved;
@@ -357,45 +356,58 @@ namespace Instrumind.Common
          {
             case EditableDictionary.ALTCOD_ADD:
                this.SourceDictionary.Add((KeyValuePair<TKey, TValue>)Parameters[0]);
-               if (NotifyHandler != null)
-                  NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, (KeyValuePair<TKey, TValue>)Parameters[0]));
+
+               NotifyHandler?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, (KeyValuePair<TKey, TValue>)Parameters[0]));
+               
                break;
 
             case EditableDictionary.ALTCOD_CLEAR:
                this.SourceDictionary.Clear();
-               if (NotifyHandler != null)
-                  NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
+               
+               NotifyHandler?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
+               
                break;
 
             case EditableDictionary.ALTCOD_POPULATE:
                this.SourceDictionary.Clear();
+               
                var Items = (IEnumerable<KeyValuePair<TKey, TValue>>)Parameters[0];
+               
                this.PopulateFrom(Items);
+               
                break;
 
             case EditableDictionary.ALTCOD_REMOVE:
                KvpItem = (KeyValuePair<TKey, TValue>)Parameters[0];
+               
                if (NotifyHandler != null)
                   Index = this.SourceDictionary.IndexOfItem(KvpItem);
+               
                this.SourceDictionary.Remove(KvpItem);
-               if (NotifyHandler != null)
-                  NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, KvpItem, Index));
+               
+               NotifyHandler?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, KvpItem, Index));
+               
                break;
 
             case EditableDictionary.ALTCOD_KEYADD:
                this.SourceDictionary.Add((TKey)Parameters[0], (TValue)Parameters[1]);
-               if (NotifyHandler != null)
-                  NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, new KeyValuePair<TKey, TValue>((TKey)Parameters[0], (TValue)Parameters[1])));
+               
+               NotifyHandler?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, new KeyValuePair<TKey, TValue>((TKey)Parameters[0], (TValue)Parameters[1])));
+               
                break;
 
             case EditableDictionary.ALTCOD_KEYREMOVE:
                Key = (TKey)Parameters[0];
+               
                var Value = this.SourceDictionary[Key];
+               
                if (NotifyHandler != null)
                   Index = this.SourceDictionary.IndexOfKey(Key);
+               
                this.SourceDictionary.Remove(Key);
-               if (NotifyHandler != null)
-                  NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, new KeyValuePair<TKey, TValue>(Key, Value), Index));
+               
+               NotifyHandler?.Invoke(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, new KeyValuePair<TKey, TValue>(Key, Value), Index));
+               
                break;
 
             case EditableDictionary.ALTCOD_KEYSET:
@@ -403,6 +415,7 @@ namespace Instrumind.Common
                var PreviousValue = (AlreadyExists ? this.SourceDictionary[(TKey)Parameters[0]] : default(TValue));
 
                this.SourceDictionary[(TKey)Parameters[0]] = (TValue)Parameters[1];
+               
                if (NotifyHandler != null)
                   if (AlreadyExists)
                      NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Replace,
@@ -410,6 +423,7 @@ namespace Instrumind.Common
                                                                               new KeyValuePair<TKey, TValue>((TKey)Parameters[0], PreviousValue)));
                   else
                      NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Add, new KeyValuePair<TKey, TValue>((TKey)Parameters[0], (TValue)Parameters[1])));
+               
                break;
 
             default:
@@ -427,8 +441,7 @@ namespace Instrumind.Common
 
       public EditableDictionary<TKey, TValue> CloneFor(IModelEntity TargetInstance, IMModelClass DirectOwner, ECloneOperationScope CloningScope = ECloneOperationScope.Slight, string Name = null)
       {
-         Dictionary<TKey, TValue> Items = null;
-
+         Dictionary<TKey, TValue> Items;
          if (CloningScope == ECloneOperationScope.Slight)
             Items = new Dictionary<TKey, TValue>(this.SourceDictionary);
          else
@@ -438,8 +451,9 @@ namespace Instrumind.Common
             foreach (var Item in this.SourceDictionary)
             {
                var Value = Item.Value;
-               if (Value is IMModelClass && !this.TreatModelClassValuesAsReferences)
-                  Value = (TValue)((IMModelClass)Value).CreateCopy(CloningScope == ECloneOperationScope.Core ? ECloneOperationScope.Slight : CloningScope /* Deep */, DirectOwner);
+
+               if (Value is IMModelClass @class && !this.TreatModelClassValuesAsReferences)
+                  Value = (TValue)@class.CreateCopy(CloningScope == ECloneOperationScope.Core ? ECloneOperationScope.Slight : CloningScope /* Deep */, DirectOwner);
 
                Items.Add(Item.Key, Value);
             }
@@ -474,21 +488,22 @@ namespace Instrumind.Common
 
       public void NotifyRefreshItem(TKey Key)
       {
-         if (!this.SourceDictionary.ContainsKey(Key))
-            return;
+         if (this.SourceDictionary.ContainsKey(Key))
+         {
+            var Value = this.SourceDictionary[Key];
 
-         var Value = this.SourceDictionary[Key];
-
-         var NotifyHandler = this.CollectionChanged;
-         if (NotifyHandler != null)
-            NotifyHandler(this, new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Replace, new KeyValuePair<TKey, TValue>(Key, Value),
-                                                                     null));
+            this.CollectionChanged?.Invoke(this,
+               new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Replace,
+                  new KeyValuePair<TKey, TValue>(Key, Value), null));
+         }
       }
 
       #region INotifyPropertyChanged Members
 
       [field: NonSerialized]
+#pragma warning disable CS0067 // The event is never used
       public event PropertyChangedEventHandler PropertyChanged;
+#pragma warning restore CS0067 // The event is never used
 
       #endregion
 
@@ -498,11 +513,10 @@ namespace Instrumind.Common
 
          if (this.VariatingInstance != null)
          {
-            if (this.VariatingInstance is FormalElement)
-               InstanceName = ((FormalElement)this.VariatingInstance).Name;
-            else
-                if (this.VariatingInstance is SimpleElement)
-               InstanceName = ((SimpleElement)this.VariatingInstance).Name;
+            if (this.VariatingInstance is FormalElement element)
+               InstanceName = element.Name;
+            else if (this.VariatingInstance is SimpleElement element1)
+               InstanceName = element1.Name;
             else
                InstanceName = "HC=" + this.VariatingInstance.GetHashCode().ToString();
          }

@@ -484,6 +484,7 @@
     <Compile Include="ApplicationShell\MainWindowHeader.xaml.cs">
       <DependentUpon>MainWindowHeader.xaml</DependentUpon>
     </Compile>
+    <None Include="ThinkComposerClassDiagram.cd" />
     <Page Include="ApplicationProduct\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

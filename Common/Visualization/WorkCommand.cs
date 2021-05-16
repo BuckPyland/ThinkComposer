@@ -85,7 +85,9 @@ namespace Instrumind.Common.Visualization
       /*- [field:NonSerialized]
       public event EventHandler CanExecuteChanged; */
 
+#pragma warning disable CS0657 // Not a valid attribute location for this declaration
       [field: NonSerialized]
+#pragma warning restore CS0657 // Not a valid attribute location for this declaration
       public event EventHandler CanExecuteChanged
       {
          add { CommandManager.RequerySuggested += value; }
